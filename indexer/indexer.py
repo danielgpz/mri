@@ -6,14 +6,16 @@ import os
 import json
 import nltk
 import math
+import sys
 
 def get_vectors(path: str, ext: str):
+	name = os.path.splitext(ext)[0]
 	all = {}
 
 	for file in list(Path(path).rglob(ext)):		
 		f = open(file, 'r')
 		json_obj = json.load(f)
-		f.close()		
+		f.close()
 
 		for i in json_obj:
 			content = ''
@@ -37,7 +39,7 @@ def get_vectors(path: str, ext: str):
 		all[i] = idx
 		idx += 1
 
-	vectors = { 'keywords': [i for i in all] }
+	vectors = {}
 	for file in list(Path(path).rglob(ext)):
 		f = open(file, 'r')
 		json_obj = json.load(f)
@@ -56,14 +58,28 @@ def get_vectors(path: str, ext: str):
 
 			vectors[json_obj[i]['title']] = vector
 
-	return vectors
-
-if __name__ == '__main__':
-	base_path = "./datasets/"
-	ext = "*.ALL.json"
-
-	v = get_vectors(base_path, ext)
-
-	f = open('vectors.json', 'w')
-	json.dump(v, f, indent=4, sort_keys=False)
+	f = open(name + '.keywords.json', 'w')
+	json.dump(all, f, indent=4, sort_keys=False)
 	f.close()
+
+	f = open(name + '.vectors.json', 'w')
+	json.dump(vectors, f, indent=4, sort_keys=False)
+	f.close()
+
+def get_vector(keywordsPath: str, text: str):
+	f = open(keywordsPath, 'r')
+	all = json.load(f)
+	f.close()
+
+	vector = [0] * len(all)
+	for k in nltk.word_tokenize(text):
+		if k.lower() in all:
+			vector[all[k.lower()]] += 1
+	
+	return vector
+
+# python3 indexer.py ./datasets/ CISI.ALL.json
+if __name__ == '__main__':
+	base_path = sys.argv[1]
+	ext = sys.argv[2]
+	get_vectors(base_path, ext)
