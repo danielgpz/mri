@@ -2,7 +2,7 @@ from model.vectorial import VectorialModel
 from indexer.indexer import get_vector
 import sys, json
 
-# python main.py ./datasets/CISI.vectors.json ./datasets/CISI.keywords.json
+# python3 main.py ./datasets/CISI.vectors.json ./datasets/CISI.keywords.json
 if __name__ == "__main__":
     vectors_path = sys.argv[1]
     keywords_path = sys.argv[2]
@@ -31,5 +31,3 @@ if __name__ == "__main__":
         results = vm.query(qvector)
         print('Results:')
         print('\n'.join(f'{j + 1}: \"{titles[result[1]]}\" (ID: {result[1] + 1} - Rel: {result[0]})' for j, result in enumerate(results[:10])))
-
-

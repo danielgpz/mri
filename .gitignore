@@ -129,5 +129,4 @@ dmypy.json
 .pyre/
 
 .vscode/
-indexer/vectors.json
-indexer/datasets/
+datasets/
