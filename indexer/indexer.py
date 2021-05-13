@@ -17,7 +17,7 @@ import sys
 class Indexer:
 	'''
 		path: path of all documents that must be indexed
-		ext: regular expression to filter the which documents must be indexed
+		ext: regular expression to filter which documents must be indexed
 		name: given name to this collection
 	'''
 	def __init__(self, path: str, ext: str, name: str):
