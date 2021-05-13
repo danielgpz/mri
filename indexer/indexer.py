@@ -68,7 +68,9 @@ class Indexer:
 					if k.lower() in all:
 						vector[all[k.lower()]] += 1
 
-				vectors[json_obj[i]['title']] = vector
+				vectors[json_obj[i]['id']] = {}
+				vectors[json_obj[i]['id']]['title'] = json_obj[i]['title']
+				vectors[json_obj[i]['id']]['vector'] = vector
 
 		self.keywords = all
 		self.keywordsPath = os.path.realpath('./datasets/' + self.name + '.keywords.json')
