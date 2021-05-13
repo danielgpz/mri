@@ -82,6 +82,12 @@ class Indexer:
 		json.dump(vectors, f, indent=4, sort_keys=False)
 		f.close()
 
+		for i in json_obj:
+			id = json_obj[i]['id']
+			f = open(os.path.join(os.getcwd(), 'docs', id + '.json'), 'w')
+			json.dump(json_obj[i], f, indent=4, sort_keys=False)
+			f.close()
+
 		cnt = [0] * idx
 		for key in vectors:
 			for i in range(idx):
