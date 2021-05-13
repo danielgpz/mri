@@ -26,8 +26,8 @@ if __name__ == "__main__":
 
 
     while True:
-        query = input('Query: ')
+        query = input('\nQuery: ')
         qvector = get_vector(query, keywords)
         results = vm.query(qvector)
         print('Results:')
-        print('\n'.join(f'{j + 1}: ({result[1] + 1}) {titles[result[1]]}' for j, result in enumerate(results[:10])))
+        print('\n'.join(f'{j + 1}: \"{titles[result[1]]}\" (ID: {result[1] + 1} - Rel: {result[0]})' for j, result in enumerate(results[:10])))

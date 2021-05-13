@@ -10,7 +10,7 @@ class VectorialModel:
         self.rank_function = rank_function
         self.N, self.n = len(freq_vectors), n
         
-        idf = [log(self.N/sum(v[i] > 0 for v in freq_vectors)) for i in range(n)]
+        idf = [log(self.N/sum(v[i] > 0 for v in freq_vectors))/log(10) for i in range(n)]
         mfq = [max(v) for v in freq_vectors]
 
         self.vectors = [[idf[i] * v[i] / mfq[j] for i in range(n)] for j, v in enumerate(freq_vectors)]
@@ -19,7 +19,8 @@ class VectorialModel:
     def query(self, freq_query: list, alpha=0.4):
         # assert len(freq_query) == n, f'El vector de la query debe ser de tamanho {self.n}'
         mfq = max(freq_query)
-        qvector = [self.idf[i] * (alpha + (1 - alpha) * freq_query[i] / mfq) for i in range(self.n)]
+        if mfq == 0: return []
+        qvector = [self.idf[i] * (alpha + (1 - alpha) * freq_query[i] / mfq) * (freq_query[i] > 0) for i in range(self.n)]
         ranks = ((self.rank_function(vector, qvector), j) for j, vector in enumerate(self.vectors))
         return sorted(ranks, reverse=True)
 
