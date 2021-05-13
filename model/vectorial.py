@@ -10,7 +10,7 @@ class VectorialModel:
         self.rank_function = rank_function
         self.N, self.n = len(freq_vectors), n
         
-        idf = [log(self.N/sum(v[i] > 0 for v in freq_vectors))/log(10) for i in range(n)]
+        idf = [log(self.N/sum(v[i] > 0 for v in freq_vectors)) for i in range(n)]
         mfq = [max(v) for v in freq_vectors]
 
         self.vectors = [[idf[i] * v[i] / mfq[j] for i in range(n)] for j, v in enumerate(freq_vectors)]
