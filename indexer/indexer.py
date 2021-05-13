@@ -98,11 +98,8 @@ class Indexer:
 	return frequency vector of all words in `text`
 '''
 def get_vector(text: str, keywords: dict):
-	vector = [0] * len(keywords)
-	for k in nltk.word_tokenize(text):
-		if k.lower() in keywords:
-			vector[keywords[k.lower()]] += 1
-	return vector
+	ac = aho_corasick(keywords)
+	return ac.match(text.lower())
 
 # python3 indexer.py ./datasets/ CISI.ALL.json CISI
 if __name__ == '__main__':
