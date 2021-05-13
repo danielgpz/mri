@@ -7,7 +7,7 @@ import json
 import nltk
 import math
 import sys
-from indexer.aho_corasick import aho_corasick
+from .aho_corasick import aho_corasick
 
 '''
 	self.name: given name to the collection of documents
@@ -97,8 +97,7 @@ class Indexer:
 '''
 	return frequency vector of all words in `text`
 '''
-def get_vector(text: str, keywords: dict):
-	ac = aho_corasick(keywords)
+def get_vector(text: str, ac: aho_corasick):
 	return ac.match(text.lower())
 
 # python3 indexer.py ./datasets/ CISI.ALL.json CISI
