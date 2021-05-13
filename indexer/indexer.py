@@ -83,15 +83,15 @@ class Indexer:
 		json.dump(vectors, f, indent=4, sort_keys=False)
 		f.close()
 
-	'''
-		return frequency vector of all words in `text`
-	'''
-	def get_vector(self, text: str):
-		vector = [0] * len(self.keywords)
-		for k in nltk.word_tokenize(text):
-			if k.lower() in self.keywords:
-				vector[self.keywords[k.lower()]] += 1
-		return vector
+'''
+	return frequency vector of all words in `text`
+'''
+def get_vector(text: str, keywords: dict):
+	vector = [0] * len(keywords)
+	for k in nltk.word_tokenize(text):
+		if k.lower() in keywords:
+			vector[keywords[k.lower()]] += 1
+	return vector
 
 # python3 indexer.py ./datasets/ CISI.ALL.json CISI
 if __name__ == '__main__':
