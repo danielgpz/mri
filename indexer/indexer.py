@@ -73,12 +73,12 @@ class Indexer:
 				vectors[json_obj[i]['id']]['vector'] = vector
 
 		self.keywords = all
-		self.keywordsPath = os.path.realpath('./datasets/' + self.name + '.keywords.json')
+		self.keywordsPath = os.path.join(os.getcwd(), 'datasets', self.name + '.keywords.json')
 		f = open(self.keywordsPath, 'w')
 		json.dump(all, f, indent=4, sort_keys=False)
 		f.close()
 
-		self.vectorsPath = os.path.realpath('./datasets/' + self.name + '.vectors.json')
+		self.vectorsPath = os.path.join(os.getcwd(), 'datasets', self.name + '.vectors.json')
 		f = open(self.vectorsPath, 'w')
 		json.dump(vectors, f, indent=4, sort_keys=False)
 		f.close()
