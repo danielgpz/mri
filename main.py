@@ -2,7 +2,7 @@ from model.vectorial import VectorialModel
 from indexer.indexer import get_vector
 import sys, json
 
-
+# python main.py ./datasets/CISI.vectors.json ./datasets/CISI.keywords.json
 if __name__ == "__main__":
     vectors_path = sys.argv[1]
     keywords_path = sys.argv[2]
