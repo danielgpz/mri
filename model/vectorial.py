@@ -20,6 +20,7 @@ class VectorialModel:
     def query(self, freq_query: list, alpha=0.4):
         # assert len(freq_query) == n, f'El vector de la query debe ser de tamanho {self.n}'
         mfq = max(freq_query)
+        if mfq == 0: return []
         qvector = [self.idf[i] * (alpha + (1 - alpha) * freq_query[i] / mfq) for i in range(self.n)]
         ranks = ((self.rank_function(vector, qvector), j) for j, vector in enumerate(self.vectors))
         return sorted(ranks, reverse=True)
