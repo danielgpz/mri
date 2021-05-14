@@ -93,8 +93,8 @@ def search_results(query: str, se: SearchEngine, page: int = 0):
 
 hostName = "localhost"
 serverPort = 8080
-vectors_path = '/home/dgc/Desktop/mri/docs/CISI.vectors.json'
-keywords_path = '/home/dgc/Desktop/mri/docs/CISI.keywords.json'
+vectors_path = './docs/CISI.vectors.json'
+keywords_path = './docs/CISI.keywords.json'
 
 class MyServer(BaseHTTPRequestHandler):  
     def do_GET(self):

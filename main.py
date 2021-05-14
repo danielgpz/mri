@@ -10,8 +10,9 @@ class SearchEngine:
             self.ac = aho_corasick(keywords)
 
         with open(vectors_path, 'r') as vp:
-        vectors_dict = json.load(vp)
-        N = len(vectors_dict)
+            vectors_dict = json.load(vp)
+            vectors_dict.pop("name")
+        
         self.vectors = []
         self.id_titles = []
 
@@ -19,7 +20,7 @@ class SearchEngine:
             self.vectors.append(dic["vector"])
             self.id_titles.append((idx, dic["title"]))
 
-            self.vm = VectorialModel(len(keywords), vectors)
+            self.vm = VectorialModel(len(keywords), self.vectors)
             del vectors_dict
     
     def query(self, text: str):
