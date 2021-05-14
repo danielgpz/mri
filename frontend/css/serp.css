@@ -33,7 +33,7 @@ body {
   .serp__body {
     display: flex;
     margin-left: 90px;
-    max-width: 1040px;
+    max-width: 1140px;
   }
 }
 
@@ -632,9 +632,9 @@ a .serp__title:hover {
 }
 
 .serp__pagination li:first-child a:after {
-  content: "◄";
+  /* content: "◄";
   line-height: 17px;
-  font-size: 17px;
+  font-size: 17px; */
 }
 
 .serp__pagination li:nth-child(2) {
@@ -642,9 +642,9 @@ a .serp__title:hover {
 }
 
 .serp__pagination li:last-child a:after {
-  content: "►";
+  /* content: "►";
   line-height: 17px;
-  font-size: 17px;
+  font-size: 17px; */
 }
 
 .serp__pagination li a {
@@ -737,9 +737,9 @@ a .serp__title:hover {
 }
 
 .serp__disabled {
-  opacity: .25;
-  /*cursor: default;*/
-  cursor: not-allowed;
+  opacity: .0;
+  cursor: default;
+  /* cursor: not-allowed; */
 }
 
 /* ------- EOF ------- */
