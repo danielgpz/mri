@@ -16,7 +16,7 @@ def load_html(file: str):
     return html
 
 def search_results(query: str, se: SearchEngine, page: int = 0, select: int = -1):
-    qdict = nltk.word_tokenize(query)
+    qdict = [i.lower() for i in nltk.word_tokenize(query)]
     jsons = se.query(query)
     pquery = quote(query)
     query = escape(query)
@@ -56,7 +56,7 @@ def search_results(query: str, se: SearchEngine, page: int = 0, select: int = -1
             r.append(f'            <a href="?q={pquery}&p={page}&s={i}">')
             r.append(f'              <div class="serp__title">{title}</div>')
             r.append('            </a>')
-            preview = TreebankWordDetokenizer().detokenize([f'<span class="serp__match">{escape(i)}</span>' if i in qdict else escape(i) for i in nltk.word_tokenize(preview)])
+            preview = TreebankWordDetokenizer().detokenize([f'<span class="serp__match">{escape(i)}</span>' if i.lower() in qdict else escape(i) for i in nltk.word_tokenize(preview)])
             r.append(f'            <span class="serp__description"> {preview} </span>')
             r.append('          </div>')
             r.append('        </div>')
