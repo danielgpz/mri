@@ -1,5 +1,5 @@
 # MRI using Vectorial Model.
-Final proyect of SI signature. Model and build an MRI.
+Final proyect of SI subject. Model and build an MRI.
 
 ## How to use:
 - To create the necesary information to use de each example dataset:
