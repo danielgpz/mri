@@ -1,17 +1,20 @@
 from http.server import BaseHTTPRequestHandler, HTTPServer
-import time
 import json
+from urllib.parse import urlparse, parse_qs
+from main import SearchEngine
+import os
+import shutil
 
-def page_not_found():
-    f = open('./404.htm', 'r')
+def load_html(file: str):
+    f = open(os.path.join(os.getcwd(), 'frontend', file), 'r')
     html = f.readlines()
     f.close()
     return html
 
-def search_results(jsons: list, page: int = 0):
-    f = open('./result.htm', 'r')
-    html = f.readlines()
-    f.close()
+def search_results(query: str, se: SearchEngine, page: int = 0):
+    jsons = se.query(query)
+    
+    html = load_html('result.htm')
 
     pages = (len(jsons) + 9) // 10
     if page < pages:
@@ -24,7 +27,7 @@ def search_results(jsons: list, page: int = 0):
         jsons = jsons[page*10:]
         r = []
         for i in jsons[:10]:
-            f = open(i, 'r')
+            f = open(os.path.join(os.getcwd(), 'docs', se.name + str(i) + '.json'), 'r')
             json_obj = json.load(i)
             i.close()
             title = json_obj['title']
@@ -56,9 +59,9 @@ def search_results(jsons: list, page: int = 0):
         p.append('            <li><a class="serp__disabled"></a></li>')
         for i in range(pages):
             if i == page:
-                p.append(f'            <li class="serp__pagination-active"><a href="/page/{i}"></a></li>')
+                p.append(f'            <li class="serp__pagination-active"><a href="?q={query}&p={i}"></a></li>')
             else:
-                p.append(f'            <li><a href="/page/{i}"></a></li>')
+                p.append(f'            <li><a href="?q={query}&p={i}"></a></li>')
         p.append('          </ul>')
         p.append('        </div>')
         html = html[:pos] + p + html[pos:]
@@ -85,29 +88,70 @@ def search_results(jsons: list, page: int = 0):
         html = html[:pos] + nr + html[pos:]
         return html
 
-    return page_not_found()
+    return load_html('404.html')
 
-
-class MyServer(BaseHTTPRequestHandler):
-    def do_GET(self):
-        self.send_response(200)
-        self.send_header("Content-type", "text/html")
-        self.end_headers()
-
-        # if self.path.startswith('/page/')
-
-        # self.wfile.write(bytes())
-        self.wfile.write(bytes("<html><head><title>https://pythonbasics.org</title></head>", "utf-8"))
-        self.wfile.write(bytes("<p>Request: %s</p>" % self.path, "utf-8"))
-        self.wfile.write(bytes("<body>", "utf-8"))
-        self.wfile.write(bytes("<p>This is an example web server.</p>", "utf-8"))
-        self.wfile.write(bytes("</body></html>", "utf-8"))
 
 hostName = "localhost"
 serverPort = 8080
+vectors_path = '/home/dgc/Desktop/mri/docs/CISI.vectors.json'
+keywords_path = '/home/dgc/Desktop/mri/docs/CISI.keywords.json'
+
+class MyServer(BaseHTTPRequestHandler):  
+    def do_GET(self):
+        if self.path.endswith(".css"):
+            f = open(os.path.join(os.getcwd(), 'frontend') + self.path, 'rb')
+            self.send_response(200)
+            self.send_header('Content-type', 'text/css')
+            self.end_headers()
+            self.wfile.write(f.read())
+            f.close()
+            return
+        
+        if self.path.endswith(".jpg") or self.path.endswith(".png"):
+            self.send_response(200)
+            self.send_header('Content-type', 'image/jpeg' if self.path.endswith(".jpg") else 'image/png')
+            self.end_headers()
+            with open(os.path.join(os.getcwd(), 'frontend') + self.path, 'rb') as content:
+                shutil.copyfileobj(content, self.wfile)
+            return
+
+        self.send_response(200)
+        self.send_header("Content-type", "text/html")
+        self.end_headers()
+        if not self.path or self.path == '/':
+            html = load_html('index.htm')
+            for l in html:
+                self.wfile.write(bytes(l, 'utf-8'))
+            return
+
+        try:
+            p = urlparse(f'http://{hostName}:{serverPort}' + self.path)
+            q = parse_qs(p.query)
+            if 'q' in q:
+                page = 0
+                if 'p' in q:
+                    page = int(q['p'][0])
+                html = search_results(q['q'][0], self.se, page)
+                for l in html:
+                    self.wfile.write(bytes(l, 'utf-8'))
+                return
+        except Exception:  
+            pass
+        
+        html = load_html('404.html')
+        for l in html:
+            self.wfile.write(bytes(l, 'utf-8'))
+
+        # self.wfile.write(bytes("<html><head><title>https://pythonbasics.org</title></head>", "utf-8"))
+        # self.wfile.write(bytes("<p>Request: %s</p>" % self.path, "utf-8"))
+        # self.wfile.write(bytes("<body>", "utf-8"))
+        # self.wfile.write(bytes("<p>This is an example web server.</p>", "utf-8"))
+        # self.wfile.write(bytes("</body></html>", "utf-8"))
+
 
 if __name__ == "__main__":        
     webServer = HTTPServer((hostName, serverPort), MyServer)
+    webServer.RequestHandlerClass.se = SearchEngine(vectors_path, keywords_path)
     print("Server started http://%s:%s" % (hostName, serverPort))
 
     try:

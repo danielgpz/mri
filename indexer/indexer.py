@@ -52,7 +52,7 @@ class Indexer:
 			all[i] = idx
 			idx += 1
 
-		vectors = {}
+		vectors = { 'name': self.name }
 		ac = aho_corasick(all)
 		for file in list(Path(path).rglob(ext)):
 			f = open(file, 'r')
@@ -84,10 +84,11 @@ class Indexer:
 
 		for i in json_obj:
 			id = json_obj[i]['id']
-			f = open(os.path.join(os.getcwd(), 'docs', id + '.json'), 'w')
+			f = open(os.path.join(os.getcwd(), 'docs', self.name + id + '.json'), 'w')
 			json.dump(json_obj[i], f, indent=4, sort_keys=False)
 			f.close()
 
+		vectors.pop('name')
 		cnt = [0] * idx
 		for key in vectors:
 			for i in range(idx):
