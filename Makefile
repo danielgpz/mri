@@ -1,8 +1,8 @@
 build_CRAN:
-	python load_vectors.py ./datasets/ CISI.ALL.json CISI
+	python load_vectors.py ./datasets/ CRAN.ALL.json CRAN
 
 build_CISI:
-	python load_vectors.py ./datasets/ CRAN.ALL.json CRAN
+	python load_vectors.py ./datasets/ CISI.ALL.json CISI
 
 serve_CRAN:
 	python server.py localhost 8080 ./docs/CRAN.vectors.json ./docs/CRAN.keywords.json

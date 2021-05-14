@@ -104,7 +104,7 @@ def search_results(query: str, se: SearchEngine, page: int = 0, select: int = -1
 # hostName = "localhost"
 hostName = sys.argv[1]
 # serverPort = 8080
-serverPort = sys.argv[2]
+serverPort = int(sys.argv[2])
 # vectors_path = './docs/CISI.vectors.json'
 vectors_path = sys.argv[3]
 # keywords_path = './docs/CISI.keywords.json'
