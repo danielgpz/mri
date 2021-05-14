@@ -20,8 +20,8 @@ class SearchEngine:
             self.vectors.append(dic["vector"])
             self.id_titles.append((idx, dic["title"]))
 
-            self.vm = VectorialModel(len(keywords), self.vectors)
-            del vectors_dict
+        self.vm = VectorialModel(len(keywords), self.vectors)
+        del vectors_dict
     
     def query(self, text: str):
         qvector = get_vector(text, self.ac)
