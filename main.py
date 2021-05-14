@@ -10,17 +10,14 @@ class SearchEngine:
             self.ac = aho_corasick(keywords)
 
         with open(vectors_path, 'r') as vp:
-            vectors_dict = json.load(vp)
-            self.name = vectors_dict['name']
-            vectors_dict.pop('name')
-            N = len(vectors_dict)
-            vectors = [[]] * N
-            self.titles = [""] * N
+        vectors_dict = json.load(vp)
+        N = len(vectors_dict)
+        self.vectors = []
+        self.id_titles = []
 
-            for idx, dic in vectors_dict.items():
-                i = int(idx) - 1
-                vectors[i] = dic["vector"]
-                self.titles[i] = dic["title"]
+        for idx, dic in vectors_dict.items():
+            self.vectors.append(dic["vector"])
+            self.id_titles.append((idx, dic["title"]))
 
             self.vm = VectorialModel(len(keywords), vectors)
             del vectors_dict
@@ -29,6 +26,7 @@ class SearchEngine:
         qvector = get_vector(text, self.ac)
         results = self.vm.query(qvector)
         return [result[1] + 1 for j, result in results]
+    
 
 # python3 main.py ./datasets/CISI.vectors.json ./datasets/CISI.keywords.json
 if __name__ == "__main__":
@@ -42,4 +40,4 @@ if __name__ == "__main__":
         qvector = get_vector(query, se.ac)
         results = se.vm.query(qvector)
         print('Results:')
-        print('\n'.join(f'{j + 1}: \"{se.titles[result[1]]}\" (ID: {result[1] + 1} - Rel: {result[0]})' for j, result in enumerate(results[:10])))
+        print('\n'.join(f'{j + 1}: \"{se.id_titles[result[1]][1]}\" (ID: {se.id_titles[result[1]][0]} - Rel: {result[0]})' for j, result in enumerate(results[:10])))
