@@ -2,7 +2,7 @@ from http.server import BaseHTTPRequestHandler, HTTPServer
 import json
 from urllib.parse import urlparse, parse_qs
 from main import SearchEngine
-import os
+import os, sys
 import shutil
 
 def load_html(file: str):
@@ -101,10 +101,14 @@ def search_results(query: str, se: SearchEngine, page: int = 0, select: int = -1
     return load_html('404.html')
 
 
-hostName = "localhost"
-serverPort = 8080
-vectors_path = './docs/CISI.vectors.json'
-keywords_path = './docs/CISI.keywords.json'
+# hostName = "localhost"
+hostName = sys.argv[1]
+# serverPort = 8080
+serverPort = sys.argv[2]
+# vectors_path = './docs/CISI.vectors.json'
+vectors_path = sys.argv[3]
+# keywords_path = './docs/CISI.keywords.json'
+keywords_path = sys.argv[4]
 
 class MyServer(BaseHTTPRequestHandler):  
     def do_GET(self):

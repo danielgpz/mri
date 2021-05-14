@@ -18,15 +18,17 @@ if __name__ == "__main__":
     with open(vectors_path, 'r') as vp:
         vectors_dict = json.load(vp)
         N = len(vectors_dict)
-        vectors = []
-        id_titles = []
+        vectors_dict.pop("name")
+    
+    vectors = []
+    id_titles = []
 
-        for idx, dic in vectors_dict.items():
-            vectors.append(dic["vector"])
-            id_titles.append((idx, dic["title"]))
+    for idx, dic in vectors_dict.items():
+        vectors.append(dic["vector"])
+        id_titles.append((idx, dic["title"]))
 
-        vm = VectorialModel(len(keywords), vectors)
-        del vectors_dict
+    vm = VectorialModel(len(keywords), vectors)
+    del vectors_dict
 
     queries_path = sys.argv[3]
     rels_path = sys.argv[4]
