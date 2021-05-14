@@ -1,0 +1,5963 @@
+{
+ "1": {
+  "184": {
+   "ground_truth": "2"
+  },
+  "29": {
+   "ground_truth": "2"
+  },
+  "31": {
+   "ground_truth": "2"
+  },
+  "12": {
+   "ground_truth": "3"
+  },
+  "51": {
+   "ground_truth": "3"
+  },
+  "102": {
+   "ground_truth": "3"
+  },
+  "13": {
+   "ground_truth": "4"
+  },
+  "14": {
+   "ground_truth": "4"
+  },
+  "15": {
+   "ground_truth": "4"
+  },
+  "57": {
+   "ground_truth": "2"
+  },
+  "378": {
+   "ground_truth": "2"
+  },
+  "859": {
+   "ground_truth": "2"
+  },
+  "185": {
+   "ground_truth": "3"
+  },
+  "30": {
+   "ground_truth": "3"
+  },
+  "37": {
+   "ground_truth": "3"
+  },
+  "52": {
+   "ground_truth": "4"
+  },
+  "142": {
+   "ground_truth": "4"
+  },
+  "195": {
+   "ground_truth": "4"
+  },
+  "875": {
+   "ground_truth": "2"
+  },
+  "56": {
+   "ground_truth": "3"
+  },
+  "66": {
+   "ground_truth": "3"
+  },
+  "95": {
+   "ground_truth": "3"
+  },
+  "462": {
+   "ground_truth": "4"
+  },
+  "497": {
+   "ground_truth": "3"
+  },
+  "858": {
+   "ground_truth": "3"
+  },
+  "876": {
+   "ground_truth": "3"
+  },
+  "879": {
+   "ground_truth": "3"
+  },
+  "880": {
+   "ground_truth": "3"
+  },
+  "486": {
+   "ground_truth": "-1"
+  }
+ },
+ "2": {
+  "12": {
+   "ground_truth": "1"
+  },
+  "15": {
+   "ground_truth": "2"
+  },
+  "184": {
+   "ground_truth": "2"
+  },
+  "858": {
+   "ground_truth": "2"
+  },
+  "51": {
+   "ground_truth": "3"
+  },
+  "102": {
+   "ground_truth": "3"
+  },
+  "202": {
+   "ground_truth": "3"
+  },
+  "14": {
+   "ground_truth": "4"
+  },
+  "52": {
+   "ground_truth": "4"
+  },
+  "380": {
+   "ground_truth": "4"
+  },
+  "746": {
+   "ground_truth": "1"
+  },
+  "859": {
+   "ground_truth": "2"
+  },
+  "948": {
+   "ground_truth": "2"
+  },
+  "285": {
+   "ground_truth": "3"
+  },
+  "390": {
+   "ground_truth": "3"
+  },
+  "391": {
+   "ground_truth": "3"
+  },
+  "442": {
+   "ground_truth": "4"
+  },
+  "497": {
+   "ground_truth": "3"
+  },
+  "643": {
+   "ground_truth": "3"
+  },
+  "856": {
+   "ground_truth": "3"
+  },
+  "857": {
+   "ground_truth": "3"
+  },
+  "877": {
+   "ground_truth": "3"
+  },
+  "864": {
+   "ground_truth": "3"
+  },
+  "658": {
+   "ground_truth": "3"
+  },
+  "486": {
+   "ground_truth": "-1"
+  }
+ },
+ "3": {
+  "5": {
+   "ground_truth": "3"
+  },
+  "6": {
+   "ground_truth": "3"
+  },
+  "90": {
+   "ground_truth": "3"
+  },
+  "91": {
+   "ground_truth": "3"
+  },
+  "119": {
+   "ground_truth": "3"
+  },
+  "144": {
+   "ground_truth": "3"
+  },
+  "181": {
+   "ground_truth": "3"
+  },
+  "399": {
+   "ground_truth": "3"
+  },
+  "485": {
+   "ground_truth": "-1"
+  }
+ },
+ "4": {
+  "236": {
+   "ground_truth": "3"
+  },
+  "166": {
+   "ground_truth": "3"
+  },
+  "488": {
+   "ground_truth": "-1"
+  }
+ },
+ "5": {
+  "552": {
+   "ground_truth": "1"
+  },
+  "401": {
+   "ground_truth": "3"
+  },
+  "1297": {
+   "ground_truth": "3"
+  },
+  "1296": {
+   "ground_truth": "1"
+  },
+  "488": {
+   "ground_truth": "-1"
+  }
+ },
+ "6": {
+  "99": {
+   "ground_truth": "2"
+  },
+  "115": {
+   "ground_truth": "3"
+  },
+  "257": {
+   "ground_truth": "3"
+  },
+  "258": {
+   "ground_truth": "3"
+  },
+  "491": {
+   "ground_truth": "-1"
+  }
+ },
+ "7": {
+  "20": {
+   "ground_truth": "2"
+  },
+  "56": {
+   "ground_truth": "3"
+  },
+  "57": {
+   "ground_truth": "3"
+  },
+  "58": {
+   "ground_truth": "3"
+  },
+  "19": {
+   "ground_truth": "4"
+  },
+  "492": {
+   "ground_truth": "-1"
+  }
+ },
+ "8": {
+  "48": {
+   "ground_truth": "1"
+  },
+  "122": {
+   "ground_truth": "1"
+  },
+  "20": {
+   "ground_truth": "3"
+  },
+  "58": {
+   "ground_truth": "3"
+  },
+  "196": {
+   "ground_truth": "3"
+  },
+  "354": {
+   "ground_truth": "1"
+  },
+  "360": {
+   "ground_truth": "1"
+  },
+  "197": {
+   "ground_truth": "3"
+  },
+  "999": {
+   "ground_truth": "3"
+  },
+  "1112": {
+   "ground_truth": "3"
+  },
+  "1005": {
+   "ground_truth": "1"
+  },
+  "492": {
+   "ground_truth": "-1"
+  }
+ },
+ "9": {
+  "21": {
+   "ground_truth": "2"
+  },
+  "22": {
+   "ground_truth": "2"
+  },
+  "550": {
+   "ground_truth": "2"
+  },
+  "534": {
+   "ground_truth": "-1"
+  }
+ },
+ "10": {
+  "259": {
+   "ground_truth": "2"
+  },
+  "405": {
+   "ground_truth": "2"
+  },
+  "302": {
+   "ground_truth": "3"
+  },
+  "436": {
+   "ground_truth": "3"
+  },
+  "437": {
+   "ground_truth": "3"
+  },
+  "438": {
+   "ground_truth": "3"
+  },
+  "998": {
+   "ground_truth": "3"
+  },
+  "1011": {
+   "ground_truth": "3"
+  },
+  "493": {
+   "ground_truth": "-1"
+  }
+ },
+ "11": {
+  "27": {
+   "ground_truth": "3"
+  },
+  "28": {
+   "ground_truth": "3"
+  },
+  "262": {
+   "ground_truth": "3"
+  },
+  "160": {
+   "ground_truth": "4"
+  },
+  "20": {
+   "ground_truth": "4"
+  },
+  "263": {
+   "ground_truth": "3"
+  },
+  "654": {
+   "ground_truth": "4"
+  },
+  "495": {
+   "ground_truth": "-1"
+  }
+ },
+ "12": {
+  "86": {
+   "ground_truth": "2"
+  },
+  "194": {
+   "ground_truth": "2"
+  },
+  "650": {
+   "ground_truth": "2"
+  },
+  "649": {
+   "ground_truth": "4"
+  },
+  "652": {
+   "ground_truth": "2"
+  },
+  "624": {
+   "ground_truth": "-1"
+  }
+ },
+ "13": {
+  "64": {
+   "ground_truth": "2"
+  },
+  "265": {
+   "ground_truth": "2"
+  },
+  "65": {
+   "ground_truth": "4"
+  },
+  "311": {
+   "ground_truth": "4"
+  },
+  "496": {
+   "ground_truth": "-1"
+  }
+ },
+ "14": {
+  "64": {
+   "ground_truth": "1"
+  },
+  "65": {
+   "ground_truth": "4"
+  },
+  "496": {
+   "ground_truth": "-1"
+  }
+ },
+ "15": {
+  "463": {
+   "ground_truth": "1"
+  },
+  "462": {
+   "ground_truth": "3"
+  },
+  "497": {
+   "ground_truth": "-1"
+  }
+ },
+ "16": {
+  "266": {
+   "ground_truth": "2"
+  },
+  "106": {
+   "ground_truth": "3"
+  },
+  "196": {
+   "ground_truth": "3"
+  },
+  "498": {
+   "ground_truth": "-1"
+  }
+ },
+ "17": {
+  "106": {
+   "ground_truth": "2"
+  },
+  "196": {
+   "ground_truth": "3"
+  },
+  "498": {
+   "ground_truth": "-1"
+  }
+ },
+ "18": {
+  "196": {
+   "ground_truth": "2"
+  },
+  "197": {
+   "ground_truth": "2"
+  },
+  "198": {
+   "ground_truth": "2"
+  },
+  "498": {
+   "ground_truth": "-1"
+  }
+ },
+ "19": {
+  "32": {
+   "ground_truth": "2"
+  },
+  "67": {
+   "ground_truth": "2"
+  },
+  "164": {
+   "ground_truth": "2"
+  },
+  "639": {
+   "ground_truth": "3"
+  },
+  "715": {
+   "ground_truth": "3"
+  },
+  "716": {
+   "ground_truth": "3"
+  },
+  "719": {
+   "ground_truth": "4"
+  },
+  "1379": {
+   "ground_truth": "4"
+  },
+  "717": {
+   "ground_truth": "3"
+  },
+  "499": {
+   "ground_truth": "-1"
+  }
+ },
+ "20": {
+  "87": {
+   "ground_truth": "3"
+  },
+  "88": {
+   "ground_truth": "3"
+  },
+  "104": {
+   "ground_truth": "3"
+  },
+  "267": {
+   "ground_truth": "3"
+  },
+  "268": {
+   "ground_truth": "3"
+  },
+  "269": {
+   "ground_truth": "3"
+  },
+  "270": {
+   "ground_truth": "3"
+  },
+  "407": {
+   "ground_truth": "3"
+  },
+  "408": {
+   "ground_truth": "3"
+  },
+  "500": {
+   "ground_truth": "-1"
+  }
+ },
+ "21": {
+  "271": {
+   "ground_truth": "1"
+  },
+  "16": {
+   "ground_truth": "2"
+  },
+  "413": {
+   "ground_truth": "2"
+  },
+  "414": {
+   "ground_truth": "3"
+  },
+  "502": {
+   "ground_truth": "-1"
+  }
+ },
+ "22": {
+  "68": {
+   "ground_truth": "1"
+  },
+  "502": {
+   "ground_truth": "-1"
+  }
+ },
+ "23": {
+  "900": {
+   "ground_truth": "1"
+  },
+  "902": {
+   "ground_truth": "1"
+  },
+  "200": {
+   "ground_truth": "2"
+  },
+  "201": {
+   "ground_truth": "2"
+  },
+  "601": {
+   "ground_truth": "2"
+  },
+  "899": {
+   "ground_truth": "3"
+  },
+  "903": {
+   "ground_truth": "3"
+  },
+  "593": {
+   "ground_truth": "3"
+  },
+  "199": {
+   "ground_truth": "4"
+  },
+  "594": {
+   "ground_truth": "4"
+  },
+  "901": {
+   "ground_truth": "2"
+  },
+  "544": {
+   "ground_truth": "2"
+  },
+  "597": {
+   "ground_truth": "2"
+  },
+  "749": {
+   "ground_truth": "3"
+  },
+  "917": {
+   "ground_truth": "3"
+  },
+  "919": {
+   "ground_truth": "3"
+  },
+  "1333": {
+   "ground_truth": "4"
+  },
+  "634": {
+   "ground_truth": "2"
+  },
+  "687": {
+   "ground_truth": "2"
+  },
+  "698": {
+   "ground_truth": "2"
+  },
+  "1290": {
+   "ground_truth": "3"
+  },
+  "700": {
+   "ground_truth": "2"
+  },
+  "704": {
+   "ground_truth": "2"
+  },
+  "705": {
+   "ground_truth": "2"
+  },
+  "1109": {
+   "ground_truth": "2"
+  },
+  "1112": {
+   "ground_truth": "2"
+  },
+  "1141": {
+   "ground_truth": "2"
+  },
+  "1197": {
+   "ground_truth": "2"
+  },
+  "1256": {
+   "ground_truth": "2"
+  },
+  "1259": {
+   "ground_truth": "2"
+  },
+  "1272": {
+   "ground_truth": "2"
+  },
+  "1289": {
+   "ground_truth": "2"
+  },
+  "892": {
+   "ground_truth": "-1"
+  }
+ },
+ "24": {
+  "46": {
+   "ground_truth": "2"
+  },
+  "47": {
+   "ground_truth": "2"
+  },
+  "92": {
+   "ground_truth": "3"
+  },
+  "756": {
+   "ground_truth": "-1"
+  }
+ },
+ "25": {
+  "213": {
+   "ground_truth": "2"
+  },
+  "212": {
+   "ground_truth": "3"
+  },
+  "214": {
+   "ground_truth": "3"
+  },
+  "215": {
+   "ground_truth": "3"
+  },
+  "216": {
+   "ground_truth": "3"
+  },
+  "276": {
+   "ground_truth": "3"
+  },
+  "277": {
+   "ground_truth": "3"
+  },
+  "426": {
+   "ground_truth": "3"
+  },
+  "427": {
+   "ground_truth": "3"
+  },
+  "511": {
+   "ground_truth": "-1"
+  }
+ },
+ "26": {
+  "145": {
+   "ground_truth": "1"
+  },
+  "611": {
+   "ground_truth": "1"
+  },
+  "376": {
+   "ground_truth": "2"
+  },
+  "406": {
+   "ground_truth": "2"
+  },
+  "565": {
+   "ground_truth": "2"
+  },
+  "1076": {
+   "ground_truth": "2"
+  },
+  "511": {
+   "ground_truth": "-1"
+  }
+ },
+ "27": {
+  "224": {
+   "ground_truth": "2"
+  },
+  "278": {
+   "ground_truth": "3"
+  },
+  "428": {
+   "ground_truth": "3"
+  },
+  "512": {
+   "ground_truth": "-1"
+  }
+ },
+ "28": {
+  "224": {
+   "ground_truth": "3"
+  },
+  "279": {
+   "ground_truth": "3"
+  },
+  "512": {
+   "ground_truth": "-1"
+  }
+ },
+ "29": {
+  "250": {
+   "ground_truth": "2"
+  },
+  "514": {
+   "ground_truth": "2"
+  },
+  "609": {
+   "ground_truth": "2"
+  },
+  "225": {
+   "ground_truth": "3"
+  },
+  "793": {
+   "ground_truth": "3"
+  },
+  "464": {
+   "ground_truth": "4"
+  },
+  "465": {
+   "ground_truth": "4"
+  },
+  "612": {
+   "ground_truth": "2"
+  },
+  "466": {
+   "ground_truth": "4"
+  },
+  "513": {
+   "ground_truth": "-1"
+  }
+ },
+ "30": {
+  "225": {
+   "ground_truth": "2"
+  },
+  "464": {
+   "ground_truth": "2"
+  },
+  "514": {
+   "ground_truth": "2"
+  },
+  "466": {
+   "ground_truth": "3"
+  },
+  "609": {
+   "ground_truth": "3"
+  },
+  "612": {
+   "ground_truth": "3"
+  },
+  "793": {
+   "ground_truth": "4"
+  },
+  "513": {
+   "ground_truth": "-1"
+  }
+ },
+ "31": {
+  "776": {
+   "ground_truth": "4"
+  },
+  "751": {
+   "ground_truth": "-1"
+  }
+ },
+ "32": {
+  "465": {
+   "ground_truth": "2"
+  },
+  "249": {
+   "ground_truth": "3"
+  },
+  "777": {
+   "ground_truth": "3"
+  },
+  "778": {
+   "ground_truth": "3"
+  },
+  "247": {
+   "ground_truth": "4"
+  },
+  "250": {
+   "ground_truth": "4"
+  },
+  "752": {
+   "ground_truth": "-1"
+  }
+ },
+ "33": {
+  "252": {
+   "ground_truth": "3"
+  },
+  "431": {
+   "ground_truth": "3"
+  },
+  "141": {
+   "ground_truth": "4"
+  },
+  "516": {
+   "ground_truth": "-1"
+  }
+ },
+ "34": {
+  "252": {
+   "ground_truth": "1"
+  },
+  "431": {
+   "ground_truth": "3"
+  },
+  "672": {
+   "ground_truth": "3"
+  },
+  "714": {
+   "ground_truth": "3"
+  },
+  "799": {
+   "ground_truth": "3"
+  },
+  "800": {
+   "ground_truth": "3"
+  },
+  "516": {
+   "ground_truth": "-1"
+  }
+ },
+ "35": {
+  "166": {
+   "ground_truth": "1"
+  },
+  "167": {
+   "ground_truth": "1"
+  },
+  "132": {
+   "ground_truth": "3"
+  },
+  "517": {
+   "ground_truth": "-1"
+  }
+ },
+ "36": {
+  "169": {
+   "ground_truth": "2"
+  },
+  "168": {
+   "ground_truth": "3"
+  },
+  "518": {
+   "ground_truth": "-1"
+  }
+ },
+ "37": {
+  "173": {
+   "ground_truth": "2"
+  },
+  "188": {
+   "ground_truth": "2"
+  },
+  "172": {
+   "ground_truth": "3"
+  },
+  "97": {
+   "ground_truth": "3"
+  },
+  "121": {
+   "ground_truth": "3"
+  },
+  "187": {
+   "ground_truth": "3"
+  },
+  "242": {
+   "ground_truth": "3"
+  },
+  "409": {
+   "ground_truth": "3"
+  },
+  "487": {
+   "ground_truth": "3"
+  },
+  "519": {
+   "ground_truth": "-1"
+  }
+ },
+ "38": {
+  "24": {
+   "ground_truth": "2"
+  },
+  "283": {
+   "ground_truth": "2"
+  },
+  "552": {
+   "ground_truth": "2"
+  },
+  "272": {
+   "ground_truth": "3"
+  },
+  "557": {
+   "ground_truth": "4"
+  },
+  "558": {
+   "ground_truth": "4"
+  },
+  "553": {
+   "ground_truth": "2"
+  },
+  "554": {
+   "ground_truth": "2"
+  },
+  "555": {
+   "ground_truth": "2"
+  },
+  "556": {
+   "ground_truth": "2"
+  },
+  "536": {
+   "ground_truth": "-1"
+  }
+ },
+ "39": {
+  "272": {
+   "ground_truth": "1"
+  },
+  "555": {
+   "ground_truth": "1"
+  },
+  "24": {
+   "ground_truth": "2"
+  },
+  "283": {
+   "ground_truth": "2"
+  },
+  "552": {
+   "ground_truth": "2"
+  },
+  "79": {
+   "ground_truth": "3"
+  },
+  "207": {
+   "ground_truth": "3"
+  },
+  "418": {
+   "ground_truth": "3"
+  },
+  "557": {
+   "ground_truth": "4"
+  },
+  "554": {
+   "ground_truth": "2"
+  },
+  "556": {
+   "ground_truth": "2"
+  },
+  "505": {
+   "ground_truth": "3"
+  },
+  "1257": {
+   "ground_truth": "3"
+  },
+  "536": {
+   "ground_truth": "-1"
+  }
+ },
+ "40": {
+  "24": {
+   "ground_truth": "2"
+  },
+  "283": {
+   "ground_truth": "2"
+  },
+  "552": {
+   "ground_truth": "2"
+  },
+  "272": {
+   "ground_truth": "3"
+  },
+  "85": {
+   "ground_truth": ""
+  },
+  "976": {
+   "ground_truth": "3"
+  },
+  "557": {
+   "ground_truth": "4"
+  },
+  "558": {
+   "ground_truth": "4"
+  },
+  "553": {
+   "ground_truth": "2"
+  },
+  "554": {
+   "ground_truth": "2"
+  },
+  "555": {
+   "ground_truth": "2"
+  },
+  "556": {
+   "ground_truth": "2"
+  },
+  "536": {
+   "ground_truth": "-1"
+  }
+ },
+ "41": {
+  "288": {
+   "ground_truth": "1"
+  },
+  "289": {
+   "ground_truth": "1"
+  },
+  "433": {
+   "ground_truth": "2"
+  },
+  "520": {
+   "ground_truth": "-1"
+  }
+ },
+ "42": {
+  "468": {
+   "ground_truth": "2"
+  },
+  "467": {
+   "ground_truth": "3"
+  },
+  "469": {
+   "ground_truth": "3"
+  },
+  "470": {
+   "ground_truth": "3"
+  },
+  "775": {
+   "ground_truth": "4"
+  },
+  "521": {
+   "ground_truth": "-1"
+  }
+ },
+ "43": {
+  "467": {
+   "ground_truth": "1"
+  },
+  "468": {
+   "ground_truth": "1"
+  },
+  "39": {
+   "ground_truth": "3"
+  },
+  "503": {
+   "ground_truth": "3"
+  },
+  "775": {
+   "ground_truth": "3"
+  },
+  "469": {
+   "ground_truth": "1"
+  },
+  "521": {
+   "ground_truth": "-1"
+  }
+ },
+ "44": {
+  "302": {
+   "ground_truth": "3"
+  },
+  "436": {
+   "ground_truth": "3"
+  },
+  "437": {
+   "ground_truth": "4"
+  },
+  "524": {
+   "ground_truth": "-1"
+  }
+ },
+ "45": {
+  "305": {
+   "ground_truth": "2"
+  },
+  "570": {
+   "ground_truth": "2"
+  },
+  "308": {
+   "ground_truth": "3"
+  },
+  "481": {
+   "ground_truth": "3"
+  },
+  "338": {
+   "ground_truth": "3"
+  },
+  "1226": {
+   "ground_truth": "4"
+  },
+  "1355": {
+   "ground_truth": "4"
+  },
+  "1185": {
+   "ground_truth": "3"
+  },
+  "629": {
+   "ground_truth": "3"
+  },
+  "663": {
+   "ground_truth": "3"
+  },
+  "798": {
+   "ground_truth": "3"
+  },
+  "572": {
+   "ground_truth": "3"
+  },
+  "525": {
+   "ground_truth": "-1"
+  }
+ },
+ "46": {
+  "305": {
+   "ground_truth": "2"
+  },
+  "338": {
+   "ground_truth": "3"
+  },
+  "344": {
+   "ground_truth": "3"
+  },
+  "481": {
+   "ground_truth": "3"
+  },
+  "84": {
+   "ground_truth": "4"
+  },
+  "123": {
+   "ground_truth": "4"
+  },
+  "1185": {
+   "ground_truth": "4"
+  },
+  "623": {
+   "ground_truth": "3"
+  },
+  "570": {
+   "ground_truth": "3"
+  },
+  "798": {
+   "ground_truth": "3"
+  },
+  "1226": {
+   "ground_truth": "4"
+  },
+  "629": {
+   "ground_truth": "4"
+  },
+  "663": {
+   "ground_truth": "4"
+  },
+  "572": {
+   "ground_truth": "4"
+  },
+  "1355": {
+   "ground_truth": "4"
+  },
+  "525": {
+   "ground_truth": "-1"
+  }
+ },
+ "47": {
+  "304": {
+   "ground_truth": "2"
+  },
+  "306": {
+   "ground_truth": "2"
+  },
+  "307": {
+   "ground_truth": "2"
+  },
+  "305": {
+   "ground_truth": "3"
+  },
+  "629": {
+   "ground_truth": "3"
+  },
+  "663": {
+   "ground_truth": "3"
+  },
+  "308": {
+   "ground_truth": "4"
+  },
+  "309": {
+   "ground_truth": "2"
+  },
+  "310": {
+   "ground_truth": "2"
+  },
+  "570": {
+   "ground_truth": "2"
+  },
+  "798": {
+   "ground_truth": "3"
+  },
+  "1185": {
+   "ground_truth": "3"
+  },
+  "1355": {
+   "ground_truth": "3"
+  },
+  "572": {
+   "ground_truth": "2"
+  },
+  "525": {
+   "ground_truth": "-1"
+  }
+ },
+ "48": {
+  "439": {
+   "ground_truth": "2"
+  },
+  "311": {
+   "ground_truth": "3"
+  },
+  "316": {
+   "ground_truth": "3"
+  },
+  "440": {
+   "ground_truth": "3"
+  },
+  "187": {
+   "ground_truth": "4"
+  },
+  "314": {
+   "ground_truth": "4"
+  },
+  "315": {
+   "ground_truth": "4"
+  },
+  "797": {
+   "ground_truth": "3"
+  },
+  "798": {
+   "ground_truth": "3"
+  },
+  "794": {
+   "ground_truth": "4"
+  },
+  "265": {
+   "ground_truth": "4"
+  },
+  "526": {
+   "ground_truth": "-1"
+  }
+ },
+ "49": {
+  "320": {
+   "ground_truth": "3"
+  },
+  "478": {
+   "ground_truth": "4"
+  },
+  "527": {
+   "ground_truth": "-1"
+  }
+ },
+ "50": {
+  "326": {
+   "ground_truth": "2"
+  },
+  "629": {
+   "ground_truth": "2"
+  },
+  "21": {
+   "ground_truth": "4"
+  },
+  "94": {
+   "ground_truth": "4"
+  },
+  "22": {
+   "ground_truth": "4"
+  },
+  "306": {
+   "ground_truth": "4"
+  },
+  "528": {
+   "ground_truth": "-1"
+  }
+ },
+ "51": {
+  "94": {
+   "ground_truth": "1"
+  },
+  "23": {
+   "ground_truth": "2"
+  },
+  "105": {
+   "ground_truth": "2"
+  },
+  "381": {
+   "ground_truth": "2"
+  },
+  "192": {
+   "ground_truth": "3"
+  },
+  "326": {
+   "ground_truth": "4"
+  },
+  "63": {
+   "ground_truth": "4"
+  },
+  "494": {
+   "ground_truth": "2"
+  },
+  "629": {
+   "ground_truth": "2"
+  },
+  "261": {
+   "ground_truth": "4"
+  },
+  "528": {
+   "ground_truth": "-1"
+  }
+ },
+ "52": {
+  "21": {
+   "ground_truth": "2"
+  },
+  "22": {
+   "ground_truth": "2"
+  },
+  "306": {
+   "ground_truth": "2"
+  },
+  "326": {
+   "ground_truth": "4"
+  },
+  "528": {
+   "ground_truth": "-1"
+  }
+ },
+ "53": {
+  "296": {
+   "ground_truth": "3"
+  },
+  "33": {
+   "ground_truth": "3"
+  },
+  "446": {
+   "ground_truth": "4"
+  },
+  "447": {
+   "ground_truth": "4"
+  },
+  "448": {
+   "ground_truth": "4"
+  },
+  "449": {
+   "ground_truth": "4"
+  },
+  "208": {
+   "ground_truth": "4"
+  },
+  "297": {
+   "ground_truth": "4"
+  },
+  "298": {
+   "ground_truth": "4"
+  },
+  "299": {
+   "ground_truth": "4"
+  },
+  "531": {
+   "ground_truth": "-1"
+  }
+ },
+ "54": {
+  "84": {
+   "ground_truth": "2"
+  },
+  "24": {
+   "ground_truth": "3"
+  },
+  "101": {
+   "ground_truth": "3"
+  },
+  "294": {
+   "ground_truth": "3"
+  },
+  "628": {
+   "ground_truth": "4"
+  },
+  "661": {
+   "ground_truth": "4"
+  },
+  "364": {
+   "ground_truth": "3"
+  },
+  "365": {
+   "ground_truth": "3"
+  },
+  "560": {
+   "ground_truth": "3"
+  },
+  "123": {
+   "ground_truth": "-1"
+  }
+ },
+ "55": {
+  "16": {
+   "ground_truth": "2"
+  },
+  "375": {
+   "ground_truth": "2"
+  },
+  "460": {
+   "ground_truth": "2"
+  },
+  "378": {
+   "ground_truth": "3"
+  },
+  "255": {
+   "ground_truth": "3"
+  },
+  "271": {
+   "ground_truth": "3"
+  },
+  "376": {
+   "ground_truth": "4"
+  },
+  "377": {
+   "ground_truth": "4"
+  },
+  "562": {
+   "ground_truth": "2"
+  },
+  "502": {
+   "ground_truth": "3"
+  },
+  "538": {
+   "ground_truth": "-1"
+  }
+ },
+ "56": {
+  "380": {
+   "ground_truth": "2"
+  },
+  "749": {
+   "ground_truth": "3"
+  },
+  "1339": {
+   "ground_truth": "3"
+  },
+  "14": {
+   "ground_truth": "4"
+  },
+  "705": {
+   "ground_truth": "4"
+  },
+  "779": {
+   "ground_truth": "4"
+  },
+  "780": {
+   "ground_truth": "4"
+  },
+  "379": {
+   "ground_truth": "4"
+  },
+  "643": {
+   "ground_truth": "4"
+  },
+  "686": {
+   "ground_truth": "4"
+  },
+  "753": {
+   "ground_truth": "-1"
+  }
+ },
+ "57": {
+  "380": {
+   "ground_truth": "2"
+  },
+  "593": {
+   "ground_truth": "3"
+  },
+  "746": {
+   "ground_truth": "3"
+  },
+  "914": {
+   "ground_truth": "3"
+  },
+  "14": {
+   "ground_truth": "4"
+  },
+  "379": {
+   "ground_truth": "4"
+  },
+  "705": {
+   "ground_truth": "4"
+  },
+  "779": {
+   "ground_truth": "4"
+  },
+  "780": {
+   "ground_truth": "4"
+  },
+  "704": {
+   "ground_truth": "4"
+  },
+  "12": {
+   "ground_truth": "4"
+  },
+  "15": {
+   "ground_truth": "4"
+  },
+  "857": {
+   "ground_truth": "4"
+  },
+  "859": {
+   "ground_truth": "4"
+  },
+  "753": {
+   "ground_truth": "-1"
+  }
+ },
+ "58": {
+  "788": {
+   "ground_truth": "2"
+  },
+  "785": {
+   "ground_truth": "3"
+  },
+  "786": {
+   "ground_truth": "3"
+  },
+  "787": {
+   "ground_truth": "3"
+  },
+  "23": {
+   "ground_truth": "4"
+  },
+  "381": {
+   "ground_truth": "4"
+  },
+  "382": {
+   "ground_truth": "4"
+  },
+  "784": {
+   "ground_truth": "4"
+  },
+  "789": {
+   "ground_truth": "4"
+  },
+  "754": {
+   "ground_truth": "-1"
+  }
+ },
+ "59": {
+  "788": {
+   "ground_truth": "2"
+  },
+  "785": {
+   "ground_truth": "3"
+  },
+  "786": {
+   "ground_truth": "3"
+  },
+  "787": {
+   "ground_truth": "3"
+  },
+  "754": {
+   "ground_truth": "-1"
+  }
+ },
+ "60": {
+  "475": {
+   "ground_truth": "2"
+  },
+  "476": {
+   "ground_truth": "3"
+  },
+  "527": {
+   "ground_truth": "3"
+  },
+  "320": {
+   "ground_truth": "4"
+  },
+  "478": {
+   "ground_truth": "4"
+  },
+  "322": {
+   "ground_truth": "-1"
+  }
+ },
+ "61": {
+  "565": {
+   "ground_truth": "2"
+  },
+  "566": {
+   "ground_truth": "2"
+  },
+  "564": {
+   "ground_truth": "3"
+  },
+  "1159": {
+   "ground_truth": "3"
+  },
+  "661": {
+   "ground_truth": "4"
+  },
+  "539": {
+   "ground_truth": "-1"
+  }
+ },
+ "62": {
+  "566": {
+   "ground_truth": "1"
+  },
+  "567": {
+   "ground_truth": "2"
+  },
+  "1084": {
+   "ground_truth": "2"
+  },
+  "1078": {
+   "ground_truth": "3"
+  },
+  "1081": {
+   "ground_truth": "3"
+  },
+  "539": {
+   "ground_truth": "-1"
+  }
+ },
+ "63": {
+  "567": {
+   "ground_truth": "1"
+  },
+  "564": {
+   "ground_truth": "3"
+  },
+  "566": {
+   "ground_truth": "3"
+  },
+  "539": {
+   "ground_truth": "-1"
+  }
+ },
+ "64": {
+  "390": {
+   "ground_truth": "1"
+  },
+  "391": {
+   "ground_truth": "2"
+  },
+  "627": {
+   "ground_truth": "-1"
+  }
+ },
+ "65": {
+  "2": {
+   "ground_truth": "2"
+  },
+  "3": {
+   "ground_truth": "2"
+  },
+  "128": {
+   "ground_truth": "2"
+  },
+  "180": {
+   "ground_truth": "3"
+  },
+  "323": {
+   "ground_truth": "3"
+  },
+  "324": {
+   "ground_truth": "3"
+  },
+  "418": {
+   "ground_truth": "4"
+  },
+  "664": {
+   "ground_truth": "2"
+  },
+  "629": {
+   "ground_truth": "2"
+  },
+  "393": {
+   "ground_truth": "3"
+  },
+  "394": {
+   "ground_truth": "3"
+  },
+  "659": {
+   "ground_truth": "3"
+  },
+  "4": {
+   "ground_truth": "3"
+  },
+  "384": {
+   "ground_truth": "3"
+  },
+  "1302": {
+   "ground_truth": "3"
+  },
+  "388": {
+   "ground_truth": "-1"
+  }
+ },
+ "66": {
+  "664": {
+   "ground_truth": "2"
+  },
+  "629": {
+   "ground_truth": "2"
+  },
+  "180": {
+   "ground_truth": "3"
+  },
+  "659": {
+   "ground_truth": "3"
+  },
+  "660": {
+   "ground_truth": "3"
+  },
+  "388": {
+   "ground_truth": "-1"
+  }
+ },
+ "67": {
+  "2": {
+   "ground_truth": "1"
+  },
+  "3": {
+   "ground_truth": "1"
+  },
+  "664": {
+   "ground_truth": "2"
+  },
+  "629": {
+   "ground_truth": "2"
+  },
+  "323": {
+   "ground_truth": "3"
+  },
+  "324": {
+   "ground_truth": "3"
+  },
+  "393": {
+   "ground_truth": "3"
+  },
+  "128": {
+   "ground_truth": "1"
+  },
+  "180": {
+   "ground_truth": "1"
+  },
+  "394": {
+   "ground_truth": "3"
+  },
+  "659": {
+   "ground_truth": "3"
+  },
+  "389": {
+   "ground_truth": "3"
+  },
+  "4": {
+   "ground_truth": "3"
+  },
+  "1302": {
+   "ground_truth": "3"
+  },
+  "388": {
+   "ground_truth": "-1"
+  }
+ },
+ "68": {
+  "662": {
+   "ground_truth": "2"
+  },
+  "101": {
+   "ground_truth": "3"
+  },
+  "460": {
+   "ground_truth": "3"
+  },
+  "661": {
+   "ground_truth": "3"
+  },
+  "62": {
+   "ground_truth": "3"
+  },
+  "628": {
+   "ground_truth": "-1"
+  }
+ },
+ "69": {
+  "458": {
+   "ground_truth": "2"
+  },
+  "570": {
+   "ground_truth": "2"
+  },
+  "977": {
+   "ground_truth": "3"
+  },
+  "62": {
+   "ground_truth": "3"
+  },
+  "336": {
+   "ground_truth": "4"
+  },
+  "540": {
+   "ground_truth": "-1"
+  }
+ },
+ "70": {
+  "333": {
+   "ground_truth": "1"
+  },
+  "568": {
+   "ground_truth": "2"
+  },
+  "570": {
+   "ground_truth": "2"
+  },
+  "62": {
+   "ground_truth": "2"
+  },
+  "101": {
+   "ground_truth": "3"
+  },
+  "283": {
+   "ground_truth": "3"
+  },
+  "565": {
+   "ground_truth": "3"
+  },
+  "24": {
+   "ground_truth": "4"
+  },
+  "977": {
+   "ground_truth": "3"
+  },
+  "307": {
+   "ground_truth": "3"
+  },
+  "540": {
+   "ground_truth": "-1"
+  }
+ },
+ "71": {
+  "569": {
+   "ground_truth": "1"
+  },
+  "571": {
+   "ground_truth": "1"
+  },
+  "1355": {
+   "ground_truth": "2"
+  },
+  "101": {
+   "ground_truth": "3"
+  },
+  "655": {
+   "ground_truth": "3"
+  },
+  "1213": {
+   "ground_truth": "3"
+  },
+  "798": {
+   "ground_truth": "4"
+  },
+  "572": {
+   "ground_truth": "1"
+  },
+  "540": {
+   "ground_truth": "-1"
+  }
+ },
+ "72": {
+  "21": {
+   "ground_truth": "2"
+  },
+  "324": {
+   "ground_truth": "2"
+  },
+  "630": {
+   "ground_truth": "2"
+  },
+  "94": {
+   "ground_truth": "3"
+  },
+  "664": {
+   "ground_truth": "3"
+  },
+  "304": {
+   "ground_truth": "3"
+  },
+  "128": {
+   "ground_truth": "4"
+  },
+  "323": {
+   "ground_truth": "4"
+  },
+  "663": {
+   "ground_truth": "4"
+  },
+  "570": {
+   "ground_truth": "3"
+  },
+  "494": {
+   "ground_truth": "3"
+  },
+  "305": {
+   "ground_truth": "4"
+  },
+  "309": {
+   "ground_truth": "4"
+  },
+  "571": {
+   "ground_truth": "4"
+  },
+  "655": {
+   "ground_truth": "4"
+  },
+  "388": {
+   "ground_truth": "4"
+  },
+  "62": {
+   "ground_truth": "4"
+  },
+  "629": {
+   "ground_truth": "-1"
+  }
+ },
+ "73": {
+  "332": {
+   "ground_truth": "2"
+  },
+  "572": {
+   "ground_truth": "2"
+  },
+  "578": {
+   "ground_truth": "2"
+  },
+  "573": {
+   "ground_truth": "3"
+  },
+  "574": {
+   "ground_truth": "3"
+  },
+  "421": {
+   "ground_truth": "3"
+  },
+  "25": {
+   "ground_truth": "4"
+  },
+  "317": {
+   "ground_truth": "4"
+  },
+  "577": {
+   "ground_truth": "4"
+  },
+  "401": {
+   "ground_truth": "2"
+  },
+  "625": {
+   "ground_truth": "2"
+  },
+  "160": {
+   "ground_truth": "3"
+  },
+  "1213": {
+   "ground_truth": "3"
+  },
+  "1304": {
+   "ground_truth": "3"
+  },
+  "1198": {
+   "ground_truth": "4"
+  },
+  "655": {
+   "ground_truth": "4"
+  },
+  "1355": {
+   "ground_truth": "4"
+  },
+  "68": {
+   "ground_truth": "3"
+  },
+  "571": {
+   "ground_truth": "3"
+  },
+  "1252": {
+   "ground_truth": "3"
+  },
+  "541": {
+   "ground_truth": "-1"
+  }
+ },
+ "74": {
+  "576": {
+   "ground_truth": "2"
+  },
+  "656": {
+   "ground_truth": "2"
+  },
+  "575": {
+   "ground_truth": "3"
+  },
+  "317": {
+   "ground_truth": "4"
+  },
+  "574": {
+   "ground_truth": "4"
+  },
+  "578": {
+   "ground_truth": "4"
+  },
+  "541": {
+   "ground_truth": "-1"
+  }
+ },
+ "75": {
+  "667": {
+   "ground_truth": "2"
+  },
+  "324": {
+   "ground_truth": "3"
+  },
+  "378": {
+   "ground_truth": "3"
+  },
+  "666": {
+   "ground_truth": "3"
+  },
+  "670": {
+   "ground_truth": "3"
+  },
+  "630": {
+   "ground_truth": "-1"
+  }
+ },
+ "76": {
+  "378": {
+   "ground_truth": "2"
+  },
+  "667": {
+   "ground_truth": "2"
+  },
+  "324": {
+   "ground_truth": "3"
+  },
+  "666": {
+   "ground_truth": "3"
+  },
+  "670": {
+   "ground_truth": "3"
+  },
+  "1391": {
+   "ground_truth": "3"
+  },
+  "329": {
+   "ground_truth": "3"
+  },
+  "630": {
+   "ground_truth": "-1"
+  }
+ },
+ "77": {
+  "668": {
+   "ground_truth": "2"
+  },
+  "666": {
+   "ground_truth": "3"
+  },
+  "667": {
+   "ground_truth": "3"
+  },
+  "670": {
+   "ground_truth": "3"
+  },
+  "329": {
+   "ground_truth": "4"
+  },
+  "1391": {
+   "ground_truth": "4"
+  },
+  "630": {
+   "ground_truth": "-1"
+  }
+ },
+ "78": {
+  "588": {
+   "ground_truth": "2"
+  },
+  "589": {
+   "ground_truth": "3"
+  },
+  "590": {
+   "ground_truth": "3"
+  },
+  "543": {
+   "ground_truth": "-1"
+  }
+ },
+ "79": {
+  "597": {
+   "ground_truth": "3"
+  },
+  "598": {
+   "ground_truth": "3"
+  },
+  "688": {
+   "ground_truth": "4"
+  },
+  "708": {
+   "ground_truth": "4"
+  },
+  "713": {
+   "ground_truth": "4"
+  },
+  "544": {
+   "ground_truth": "-1"
+  }
+ },
+ "80": {
+  "594": {
+   "ground_truth": "1"
+  },
+  "597": {
+   "ground_truth": "1"
+  },
+  "596": {
+   "ground_truth": "3"
+  },
+  "598": {
+   "ground_truth": "3"
+  },
+  "544": {
+   "ground_truth": "-1"
+  }
+ },
+ "81": {
+  "672": {
+   "ground_truth": "1"
+  },
+  "799": {
+   "ground_truth": "4"
+  },
+  "631": {
+   "ground_truth": "-1"
+  }
+ },
+ "82": {
+  "676": {
+   "ground_truth": "2"
+  },
+  "677": {
+   "ground_truth": "2"
+  },
+  "678": {
+   "ground_truth": "3"
+  },
+  "679": {
+   "ground_truth": "3"
+  },
+  "205": {
+   "ground_truth": "3"
+  },
+  "632": {
+   "ground_truth": "-1"
+  }
+ },
+ "83": {
+  "680": {
+   "ground_truth": "2"
+  },
+  "681": {
+   "ground_truth": "2"
+  },
+  "682": {
+   "ground_truth": "2"
+  },
+  "683": {
+   "ground_truth": "2"
+  },
+  "633": {
+   "ground_truth": "-1"
+  }
+ },
+ "84": {
+  "606": {
+   "ground_truth": "2"
+  },
+  "406": {
+   "ground_truth": "2"
+  },
+  "608": {
+   "ground_truth": "3"
+  },
+  "142": {
+   "ground_truth": "3"
+  },
+  "294": {
+   "ground_truth": "3"
+  },
+  "354": {
+   "ground_truth": "4"
+  },
+  "522": {
+   "ground_truth": "4"
+  },
+  "962": {
+   "ground_truth": "3"
+  },
+  "1192": {
+   "ground_truth": "3"
+  },
+  "1213": {
+   "ground_truth": "3"
+  },
+  "873": {
+   "ground_truth": "4"
+  },
+  "546": {
+   "ground_truth": "-1"
+  }
+ },
+ "85": {
+  "608": {
+   "ground_truth": "1"
+  },
+  "406": {
+   "ground_truth": "2"
+  },
+  "606": {
+   "ground_truth": "3"
+  },
+  "710": {
+   "ground_truth": "3"
+  },
+  "546": {
+   "ground_truth": "-1"
+  }
+ },
+ "86": {
+  "594": {
+   "ground_truth": "3"
+  },
+  "790": {
+   "ground_truth": "3"
+  },
+  "755": {
+   "ground_truth": "-1"
+  }
+ },
+ "87": {
+  "606": {
+   "ground_truth": "2"
+  },
+  "611": {
+   "ground_truth": "2"
+  },
+  "562": {
+   "ground_truth": "3"
+  },
+  "50": {
+   "ground_truth": "4"
+  },
+  "236": {
+   "ground_truth": "4"
+  },
+  "609": {
+   "ground_truth": "4"
+  },
+  "612": {
+   "ground_truth": "4"
+  },
+  "406": {
+   "ground_truth": "4"
+  },
+  "547": {
+   "ground_truth": "-1"
+  }
+ },
+ "88": {
+  "613": {
+   "ground_truth": "2"
+  },
+  "614": {
+   "ground_truth": "2"
+  },
+  "615": {
+   "ground_truth": "2"
+  },
+  "616": {
+   "ground_truth": "3"
+  },
+  "617": {
+   "ground_truth": "3"
+  },
+  "618": {
+   "ground_truth": "4"
+  },
+  "548": {
+   "ground_truth": "-1"
+  }
+ },
+ "89": {
+  "793": {
+   "ground_truth": "2"
+  },
+  "794": {
+   "ground_truth": "2"
+  },
+  "797": {
+   "ground_truth": "3"
+  },
+  "795": {
+   "ground_truth": "4"
+  },
+  "796": {
+   "ground_truth": "4"
+  },
+  "420": {
+   "ground_truth": "4"
+  },
+  "757": {
+   "ground_truth": "-1"
+  }
+ },
+ "90": {
+  "794": {
+   "ground_truth": "2"
+  },
+  "797": {
+   "ground_truth": "2"
+  },
+  "798": {
+   "ground_truth": "2"
+  },
+  "793": {
+   "ground_truth": "3"
+  },
+  "796": {
+   "ground_truth": "3"
+  },
+  "291": {
+   "ground_truth": "3"
+  },
+  "800": {
+   "ground_truth": "4"
+  },
+  "1187": {
+   "ground_truth": "4"
+  },
+  "256": {
+   "ground_truth": "2"
+  },
+  "311": {
+   "ground_truth": "3"
+  },
+  "335": {
+   "ground_truth": "3"
+  },
+  "1364": {
+   "ground_truth": "3"
+  },
+  "1367": {
+   "ground_truth": "4"
+  },
+  "757": {
+   "ground_truth": "-1"
+  }
+ },
+ "91": {
+  "252": {
+   "ground_truth": "2"
+  },
+  "801": {
+   "ground_truth": "2"
+  },
+  "797": {
+   "ground_truth": "3"
+  },
+  "799": {
+   "ground_truth": "3"
+  },
+  "800": {
+   "ground_truth": "3"
+  },
+  "793": {
+   "ground_truth": "4"
+  },
+  "794": {
+   "ground_truth": "4"
+  },
+  "1154": {
+   "ground_truth": "3"
+  },
+  "672": {
+   "ground_truth": "4"
+  },
+  "757": {
+   "ground_truth": "-1"
+  }
+ },
+ "92": {
+  "802": {
+   "ground_truth": "2"
+  },
+  "803": {
+   "ground_truth": "2"
+  },
+  "808": {
+   "ground_truth": "3"
+  },
+  "809": {
+   "ground_truth": "3"
+  },
+  "811": {
+   "ground_truth": "3"
+  },
+  "804": {
+   "ground_truth": "4"
+  },
+  "805": {
+   "ground_truth": "4"
+  },
+  "806": {
+   "ground_truth": "4"
+  },
+  "253": {
+   "ground_truth": "3"
+  },
+  "1247": {
+   "ground_truth": "3"
+  },
+  "807": {
+   "ground_truth": "4"
+  },
+  "810": {
+   "ground_truth": "4"
+  },
+  "1243": {
+   "ground_truth": "4"
+  },
+  "758": {
+   "ground_truth": "-1"
+  }
+ },
+ "93": {
+  "691": {
+   "ground_truth": "3"
+  },
+  "635": {
+   "ground_truth": "-1"
+  }
+ },
+ "94": {
+  "24": {
+   "ground_truth": "1"
+  },
+  "283": {
+   "ground_truth": "3"
+  },
+  "294": {
+   "ground_truth": "3"
+  },
+  "559": {
+   "ground_truth": "3"
+  },
+  "689": {
+   "ground_truth": "4"
+  },
+  "690": {
+   "ground_truth": "4"
+  },
+  "101": {
+   "ground_truth": "4"
+  },
+  "1393": {
+   "ground_truth": "3"
+  },
+  "354": {
+   "ground_truth": "4"
+  },
+  "1104": {
+   "ground_truth": "4"
+  },
+  "1161": {
+   "ground_truth": "4"
+  },
+  "1395": {
+   "ground_truth": "4"
+  },
+  "635": {
+   "ground_truth": "-1"
+  }
+ },
+ "95": {
+  "283": {
+   "ground_truth": "1"
+  },
+  "662": {
+   "ground_truth": "4"
+  },
+  "635": {
+   "ground_truth": "-1"
+  }
+ },
+ "96": {
+  "703": {
+   "ground_truth": "3"
+  },
+  "704": {
+   "ground_truth": "3"
+  },
+  "705": {
+   "ground_truth": "3"
+  },
+  "698": {
+   "ground_truth": "4"
+  },
+  "699": {
+   "ground_truth": "4"
+  },
+  "700": {
+   "ground_truth": "4"
+  },
+  "1289": {
+   "ground_truth": "3"
+  },
+  "779": {
+   "ground_truth": "3"
+  },
+  "701": {
+   "ground_truth": "4"
+  },
+  "702": {
+   "ground_truth": "4"
+  },
+  "706": {
+   "ground_truth": "4"
+  },
+  "792": {
+   "ground_truth": "4"
+  },
+  "1339": {
+   "ground_truth": "4"
+  },
+  "637": {
+   "ground_truth": "-1"
+  }
+ },
+ "97": {
+  "699": {
+   "ground_truth": "3"
+  },
+  "700": {
+   "ground_truth": "3"
+  },
+  "701": {
+   "ground_truth": "3"
+  },
+  "698": {
+   "ground_truth": "4"
+  },
+  "1289": {
+   "ground_truth": "4"
+  },
+  "702": {
+   "ground_truth": "3"
+  },
+  "703": {
+   "ground_truth": "3"
+  },
+  "779": {
+   "ground_truth": "3"
+  },
+  "1339": {
+   "ground_truth": "4"
+  },
+  "681": {
+   "ground_truth": "3"
+  },
+  "637": {
+   "ground_truth": "-1"
+  }
+ },
+ "98": {
+  "713": {
+   "ground_truth": "2"
+  },
+  "708": {
+   "ground_truth": "4"
+  },
+  "709": {
+   "ground_truth": "4"
+  },
+  "711": {
+   "ground_truth": "4"
+  },
+  "712": {
+   "ground_truth": "4"
+  },
+  "638": {
+   "ground_truth": "-1"
+  }
+ },
+ "99": {
+  "717": {
+   "ground_truth": "2"
+  },
+  "719": {
+   "ground_truth": "2"
+  },
+  "1001": {
+   "ground_truth": "3"
+  },
+  "1379": {
+   "ground_truth": "3"
+  },
+  "639": {
+   "ground_truth": "-1"
+  }
+ },
+ "100": {
+  "821": {
+   "ground_truth": "2"
+  },
+  "822": {
+   "ground_truth": "2"
+  },
+  "824": {
+   "ground_truth": "2"
+  },
+  "820": {
+   "ground_truth": "3"
+  },
+  "823": {
+   "ground_truth": "3"
+  },
+  "825": {
+   "ground_truth": "3"
+  },
+  "1122": {
+   "ground_truth": "2"
+  },
+  "1051": {
+   "ground_truth": "3"
+  },
+  "1121": {
+   "ground_truth": "3"
+  },
+  "760": {
+   "ground_truth": "-1"
+  }
+ },
+ "101": {
+  "817": {
+   "ground_truth": "2"
+  },
+  "818": {
+   "ground_truth": "2"
+  },
+  "819": {
+   "ground_truth": "2"
+  },
+  "820": {
+   "ground_truth": "3"
+  },
+  "825": {
+   "ground_truth": "3"
+  },
+  "824": {
+   "ground_truth": "2"
+  },
+  "760": {
+   "ground_truth": "-1"
+  }
+ },
+ "102": {
+  "728": {
+   "ground_truth": "1"
+  },
+  "913": {
+   "ground_truth": "2"
+  },
+  "910": {
+   "ground_truth": "3"
+  },
+  "911": {
+   "ground_truth": "4"
+  },
+  "729": {
+   "ground_truth": "-1"
+  }
+ },
+ "103": {
+  "826": {
+   "ground_truth": "3"
+  },
+  "828": {
+   "ground_truth": "3"
+  },
+  "761": {
+   "ground_truth": "-1"
+  }
+ },
+ "104": {
+  "833": {
+   "ground_truth": "3"
+  },
+  "834": {
+   "ground_truth": "3"
+  },
+  "835": {
+   "ground_truth": "3"
+  },
+  "836": {
+   "ground_truth": "3"
+  },
+  "837": {
+   "ground_truth": "3"
+  },
+  "762": {
+   "ground_truth": "-1"
+  }
+ },
+ "105": {
+  "848": {
+   "ground_truth": "3"
+  },
+  "844": {
+   "ground_truth": "4"
+  },
+  "845": {
+   "ground_truth": "4"
+  },
+  "846": {
+   "ground_truth": "4"
+  },
+  "847": {
+   "ground_truth": "4"
+  },
+  "764": {
+   "ground_truth": "-1"
+  }
+ },
+ "106": {
+  "847": {
+   "ground_truth": "2"
+  },
+  "846": {
+   "ground_truth": "3"
+  },
+  "849": {
+   "ground_truth": "3"
+  },
+  "844": {
+   "ground_truth": "4"
+  },
+  "845": {
+   "ground_truth": "4"
+  },
+  "764": {
+   "ground_truth": "-1"
+  }
+ },
+ "107": {
+  "725": {
+   "ground_truth": "2"
+  },
+  "728": {
+   "ground_truth": "2"
+  },
+  "729": {
+   "ground_truth": "3"
+  },
+  "911": {
+   "ground_truth": "3"
+  },
+  "720": {
+   "ground_truth": "4"
+  },
+  "75": {
+   "ground_truth": "4"
+  },
+  "909": {
+   "ground_truth": "4"
+  },
+  "640": {
+   "ground_truth": "-1"
+  }
+ },
+ "108": {
+  "724": {
+   "ground_truth": "2"
+  },
+  "726": {
+   "ground_truth": "2"
+  },
+  "727": {
+   "ground_truth": "2"
+  },
+  "75": {
+   "ground_truth": "3"
+  },
+  "909": {
+   "ground_truth": "3"
+  },
+  "720": {
+   "ground_truth": "4"
+  },
+  "723": {
+   "ground_truth": "4"
+  },
+  "640": {
+   "ground_truth": "-1"
+  }
+ },
+ "109": {
+  "860": {
+   "ground_truth": "1"
+  },
+  "861": {
+   "ground_truth": "1"
+  },
+  "606": {
+   "ground_truth": "3"
+  },
+  "980": {
+   "ground_truth": "3"
+  },
+  "12": {
+   "ground_truth": "3"
+  },
+  "766": {
+   "ground_truth": "-1"
+  }
+ },
+ "110": {
+  "862": {
+   "ground_truth": "1"
+  },
+  "863": {
+   "ground_truth": "1"
+  },
+  "31": {
+   "ground_truth": "3"
+  },
+  "1174": {
+   "ground_truth": "4"
+  },
+  "766": {
+   "ground_truth": "-1"
+  }
+ },
+ "111": {
+  "15": {
+   "ground_truth": "2"
+  },
+  "391": {
+   "ground_truth": "2"
+  },
+  "864": {
+   "ground_truth": "2"
+  },
+  "914": {
+   "ground_truth": "3"
+  },
+  "392": {
+   "ground_truth": "3"
+  },
+  "627": {
+   "ground_truth": "3"
+  },
+  "658": {
+   "ground_truth": "3"
+  },
+  "894": {
+   "ground_truth": "-1"
+  }
+ },
+ "112": {
+  "731": {
+   "ground_truth": "3"
+  },
+  "730": {
+   "ground_truth": "4"
+  },
+  "641": {
+   "ground_truth": "-1"
+  }
+ },
+ "113": {
+  "746": {
+   "ground_truth": "3"
+  },
+  "748": {
+   "ground_truth": "3"
+  },
+  "749": {
+   "ground_truth": "3"
+  },
+  "265": {
+   "ground_truth": "3"
+  },
+  "643": {
+   "ground_truth": "-1"
+  }
+ },
+ "114": {
+  "919": {
+   "ground_truth": "1"
+  },
+  "916": {
+   "ground_truth": "2"
+  },
+  "920": {
+   "ground_truth": "3"
+  },
+  "921": {
+   "ground_truth": "3"
+  },
+  "895": {
+   "ground_truth": "-1"
+  }
+ },
+ "115": {
+  "51": {
+   "ground_truth": "2"
+  },
+  "185": {
+   "ground_truth": "2"
+  },
+  "878": {
+   "ground_truth": "3"
+  },
+  "874": {
+   "ground_truth": "4"
+  },
+  "184": {
+   "ground_truth": "-1"
+  }
+ },
+ "116": {
+  "922": {
+   "ground_truth": "1"
+  },
+  "360": {
+   "ground_truth": "3"
+  },
+  "605": {
+   "ground_truth": "3"
+  },
+  "927": {
+   "ground_truth": "3"
+  },
+  "492": {
+   "ground_truth": "4"
+  },
+  "896": {
+   "ground_truth": "-1"
+  }
+ },
+ "117": {
+  "360": {
+   "ground_truth": "2"
+  },
+  "605": {
+   "ground_truth": "3"
+  },
+  "896": {
+   "ground_truth": "-1"
+  }
+ },
+ "118": {
+  "923": {
+   "ground_truth": "2"
+  },
+  "924": {
+   "ground_truth": "3"
+  },
+  "925": {
+   "ground_truth": "3"
+  },
+  "896": {
+   "ground_truth": "-1"
+  }
+ },
+ "119": {
+  "926": {
+   "ground_truth": "4"
+  },
+  "897": {
+   "ground_truth": "-1"
+  }
+ },
+ "120": {
+  "829": {
+   "ground_truth": "2"
+  },
+  "887": {
+   "ground_truth": "2"
+  },
+  "890": {
+   "ground_truth": "2"
+  },
+  "885": {
+   "ground_truth": "3"
+  },
+  "886": {
+   "ground_truth": "3"
+  },
+  "888": {
+   "ground_truth": "3"
+  },
+  "889": {
+   "ground_truth": "4"
+  },
+  "1146": {
+   "ground_truth": "2"
+  },
+  "891": {
+   "ground_truth": "3"
+  },
+  "769": {
+   "ground_truth": "-1"
+  }
+ },
+ "121": {
+  "885": {
+   "ground_truth": "1"
+  },
+  "886": {
+   "ground_truth": "1"
+  },
+  "1146": {
+   "ground_truth": "2"
+  },
+  "887": {
+   "ground_truth": "1"
+  },
+  "888": {
+   "ground_truth": "1"
+  },
+  "890": {
+   "ground_truth": "1"
+  },
+  "891": {
+   "ground_truth": "1"
+  },
+  "769": {
+   "ground_truth": "-1"
+  }
+ },
+ "122": {
+  "931": {
+   "ground_truth": "4"
+  },
+  "932": {
+   "ground_truth": "2"
+  },
+  "934": {
+   "ground_truth": "4"
+  },
+  "935": {
+   "ground_truth": "4"
+  },
+  "936": {
+   "ground_truth": "2"
+  },
+  "937": {
+   "ground_truth": "2"
+  },
+  "938": {
+   "ground_truth": "2"
+  },
+  "957": {
+   "ground_truth": "3"
+  },
+  "1131": {
+   "ground_truth": "3"
+  },
+  "898": {
+   "ground_truth": "-1"
+  }
+ },
+ "123": {
+  "966": {
+   "ground_truth": "2"
+  },
+  "967": {
+   "ground_truth": "3"
+  },
+  "941": {
+   "ground_truth": "-1"
+  }
+ },
+ "124": {
+  "967": {
+   "ground_truth": "2"
+  },
+  "968": {
+   "ground_truth": "2"
+  },
+  "964": {
+   "ground_truth": "3"
+  },
+  "965": {
+   "ground_truth": "3"
+  },
+  "941": {
+   "ground_truth": "-1"
+  }
+ },
+ "125": {
+  "969": {
+   "ground_truth": "2"
+  },
+  "970": {
+   "ground_truth": "2"
+  },
+  "971": {
+   "ground_truth": "2"
+  },
+  "187": {
+   "ground_truth": "3"
+  },
+  "973": {
+   "ground_truth": "3"
+  },
+  "173": {
+   "ground_truth": "3"
+  },
+  "974": {
+   "ground_truth": "4"
+  },
+  "177": {
+   "ground_truth": "4"
+  },
+  "972": {
+   "ground_truth": "2"
+  },
+  "174": {
+   "ground_truth": "2"
+  },
+  "997": {
+   "ground_truth": "2"
+  },
+  "176": {
+   "ground_truth": "3"
+  },
+  "409": {
+   "ground_truth": "3"
+  },
+  "946": {
+   "ground_truth": "3"
+  },
+  "992": {
+   "ground_truth": "3"
+  },
+  "994": {
+   "ground_truth": "3"
+  },
+  "995": {
+   "ground_truth": "3"
+  },
+  "942": {
+   "ground_truth": "-1"
+  }
+ },
+ "126": {
+  "974": {
+   "ground_truth": "2"
+  },
+  "1326": {
+   "ground_truth": "2"
+  },
+  "187": {
+   "ground_truth": "3"
+  },
+  "969": {
+   "ground_truth": "3"
+  },
+  "970": {
+   "ground_truth": "3"
+  },
+  "971": {
+   "ground_truth": "3"
+  },
+  "972": {
+   "ground_truth": "3"
+  },
+  "973": {
+   "ground_truth": "3"
+  },
+  "942": {
+   "ground_truth": "-1"
+  }
+ },
+ "127": {
+  "101": {
+   "ground_truth": "2"
+  },
+  "164": {
+   "ground_truth": "2"
+  },
+  "981": {
+   "ground_truth": "3"
+  },
+  "982": {
+   "ground_truth": "4"
+  },
+  "983": {
+   "ground_truth": "4"
+  },
+  "944": {
+   "ground_truth": "-1"
+  }
+ },
+ "128": {
+  "985": {
+   "ground_truth": "3"
+  },
+  "990": {
+   "ground_truth": "3"
+  },
+  "945": {
+   "ground_truth": "-1"
+  }
+ },
+ "129": {
+  "985": {
+   "ground_truth": "2"
+  },
+  "987": {
+   "ground_truth": "2"
+  },
+  "984": {
+   "ground_truth": "3"
+  },
+  "988": {
+   "ground_truth": "3"
+  },
+  "989": {
+   "ground_truth": "3"
+  },
+  "986": {
+   "ground_truth": "4"
+  },
+  "990": {
+   "ground_truth": "3"
+  },
+  "945": {
+   "ground_truth": "-1"
+  }
+ },
+ "130": {
+  "766": {
+   "ground_truth": "2"
+  },
+  "858": {
+   "ground_truth": "3"
+  },
+  "859": {
+   "ground_truth": "3"
+  },
+  "1008": {
+   "ground_truth": "3"
+  },
+  "12": {
+   "ground_truth": "3"
+  },
+  "948": {
+   "ground_truth": "-1"
+  }
+ },
+ "131": {
+  "1014": {
+   "ground_truth": "2"
+  },
+  "1020": {
+   "ground_truth": "2"
+  },
+  "1013": {
+   "ground_truth": "3"
+  },
+  "1016": {
+   "ground_truth": "3"
+  },
+  "1017": {
+   "ground_truth": "3"
+  },
+  "1012": {
+   "ground_truth": "4"
+  },
+  "1018": {
+   "ground_truth": "3"
+  },
+  "1019": {
+   "ground_truth": "3"
+  },
+  "950": {
+   "ground_truth": "-1"
+  }
+ },
+ "132": {
+  "1014": {
+   "ground_truth": "1"
+  },
+  "1013": {
+   "ground_truth": "3"
+  },
+  "1015": {
+   "ground_truth": "3"
+  },
+  "1016": {
+   "ground_truth": "3"
+  },
+  "1012": {
+   "ground_truth": "4"
+  },
+  "1018": {
+   "ground_truth": "4"
+  },
+  "1019": {
+   "ground_truth": "4"
+  },
+  "1017": {
+   "ground_truth": "3"
+  },
+  "951": {
+   "ground_truth": "3"
+  },
+  "1023": {
+   "ground_truth": "3"
+  },
+  "1020": {
+   "ground_truth": "4"
+  },
+  "952": {
+   "ground_truth": "4"
+  },
+  "1024": {
+   "ground_truth": "4"
+  },
+  "1025": {
+   "ground_truth": "3"
+  },
+  "1026": {
+   "ground_truth": "3"
+  },
+  "950": {
+   "ground_truth": "-1"
+  }
+ },
+ "133": {
+  "1020": {
+   "ground_truth": "1"
+  },
+  "1018": {
+   "ground_truth": "2"
+  },
+  "1019": {
+   "ground_truth": "2"
+  },
+  "1024": {
+   "ground_truth": "3"
+  },
+  "1012": {
+   "ground_truth": "4"
+  },
+  "1016": {
+   "ground_truth": "4"
+  },
+  "1022": {
+   "ground_truth": "4"
+  },
+  "950": {
+   "ground_truth": "-1"
+  }
+ },
+ "134": {
+  "1027": {
+   "ground_truth": "2"
+  },
+  "1028": {
+   "ground_truth": "3"
+  },
+  "951": {
+   "ground_truth": "-1"
+  }
+ },
+ "135": {
+  "1018": {
+   "ground_truth": "1"
+  },
+  "1017": {
+   "ground_truth": "4"
+  },
+  "1023": {
+   "ground_truth": "4"
+  },
+  "1024": {
+   "ground_truth": "4"
+  },
+  "1025": {
+   "ground_truth": "4"
+  },
+  "1026": {
+   "ground_truth": "4"
+  },
+  "950": {
+   "ground_truth": "4"
+  },
+  "1016": {
+   "ground_truth": "4"
+  },
+  "951": {
+   "ground_truth": "-1"
+  }
+ },
+ "136": {
+  "1021": {
+   "ground_truth": "1"
+  },
+  "1022": {
+   "ground_truth": "4"
+  },
+  "1034": {
+   "ground_truth": "4"
+  },
+  "951": {
+   "ground_truth": "-1"
+  }
+ },
+ "137": {
+  "1029": {
+   "ground_truth": "2"
+  },
+  "1034": {
+   "ground_truth": "3"
+  },
+  "951": {
+   "ground_truth": "3"
+  },
+  "1021": {
+   "ground_truth": "3"
+  },
+  "952": {
+   "ground_truth": "-1"
+  }
+ },
+ "138": {
+  "846": {
+   "ground_truth": "1"
+  },
+  "1036": {
+   "ground_truth": "1"
+  },
+  "953": {
+   "ground_truth": "-1"
+  }
+ },
+ "139": {
+  "1031": {
+   "ground_truth": "2"
+  },
+  "1032": {
+   "ground_truth": "2"
+  },
+  "1035": {
+   "ground_truth": "2"
+  },
+  "1037": {
+   "ground_truth": "4"
+  },
+  "953": {
+   "ground_truth": "-1"
+  }
+ },
+ "140": {
+  "1038": {
+   "ground_truth": "1"
+  },
+  "1039": {
+   "ground_truth": "1"
+  },
+  "1041": {
+   "ground_truth": "2"
+  },
+  "1042": {
+   "ground_truth": "2"
+  },
+  "1043": {
+   "ground_truth": "4"
+  },
+  "1044": {
+   "ground_truth": "4"
+  },
+  "954": {
+   "ground_truth": "-1"
+  }
+ },
+ "141": {
+  "1038": {
+   "ground_truth": "1"
+  },
+  "1041": {
+   "ground_truth": "1"
+  },
+  "1043": {
+   "ground_truth": "2"
+  },
+  "1044": {
+   "ground_truth": "2"
+  },
+  "1039": {
+   "ground_truth": "3"
+  },
+  "1042": {
+   "ground_truth": "3"
+  },
+  "954": {
+   "ground_truth": "-1"
+  }
+ },
+ "142": {
+  "1042": {
+   "ground_truth": "1"
+  },
+  "954": {
+   "ground_truth": "-1"
+  }
+ },
+ "143": {
+  "1043": {
+   "ground_truth": "1"
+  },
+  "1044": {
+   "ground_truth": "1"
+  },
+  "954": {
+   "ground_truth": "-1"
+  }
+ },
+ "144": {
+  "840": {
+   "ground_truth": "2"
+  },
+  "1045": {
+   "ground_truth": "2"
+  },
+  "763": {
+   "ground_truth": "3"
+  },
+  "838": {
+   "ground_truth": "3"
+  },
+  "839": {
+   "ground_truth": "3"
+  },
+  "841": {
+   "ground_truth": "3"
+  },
+  "955": {
+   "ground_truth": "-1"
+  }
+ },
+ "145": {
+  "763": {
+   "ground_truth": "2"
+  },
+  "838": {
+   "ground_truth": "2"
+  },
+  "839": {
+   "ground_truth": "2"
+  },
+  "1045": {
+   "ground_truth": "3"
+  },
+  "743": {
+   "ground_truth": "3"
+  },
+  "852": {
+   "ground_truth": "4"
+  },
+  "841": {
+   "ground_truth": "2"
+  },
+  "955": {
+   "ground_truth": "-1"
+  }
+ },
+ "146": {
+  "840": {
+   "ground_truth": "1"
+  },
+  "1045": {
+   "ground_truth": "3"
+  },
+  "955": {
+   "ground_truth": "-1"
+  }
+ },
+ "147": {
+  "889": {
+   "ground_truth": "3"
+  },
+  "1046": {
+   "ground_truth": "3"
+  },
+  "1048": {
+   "ground_truth": "3"
+  },
+  "1047": {
+   "ground_truth": "4"
+  },
+  "1049": {
+   "ground_truth": "4"
+  },
+  "1051": {
+   "ground_truth": "4"
+  },
+  "1050": {
+   "ground_truth": "3"
+  },
+  "843": {
+   "ground_truth": "3"
+  },
+  "926": {
+   "ground_truth": "4"
+  },
+  "822": {
+   "ground_truth": "4"
+  },
+  "956": {
+   "ground_truth": "-1"
+  }
+ },
+ "148": {
+  "889": {
+   "ground_truth": "2"
+  },
+  "1048": {
+   "ground_truth": "2"
+  },
+  "1050": {
+   "ground_truth": "2"
+  },
+  "1046": {
+   "ground_truth": "3"
+  },
+  "1049": {
+   "ground_truth": "3"
+  },
+  "843": {
+   "ground_truth": "3"
+  },
+  "956": {
+   "ground_truth": "-1"
+  }
+ },
+ "149": {
+  "1057": {
+   "ground_truth": "3"
+  },
+  "1058": {
+   "ground_truth": "3"
+  },
+  "1059": {
+   "ground_truth": "3"
+  },
+  "1052": {
+   "ground_truth": "4"
+  },
+  "930": {
+   "ground_truth": "3"
+  },
+  "931": {
+   "ground_truth": "3"
+  },
+  "934": {
+   "ground_truth": "3"
+  },
+  "936": {
+   "ground_truth": "3"
+  },
+  "937": {
+   "ground_truth": "3"
+  },
+  "938": {
+   "ground_truth": "3"
+  },
+  "1131": {
+   "ground_truth": "3"
+  },
+  "957": {
+   "ground_truth": "-1"
+  }
+ },
+ "150": {
+  "1074": {
+   "ground_truth": "3"
+  },
+  "1075": {
+   "ground_truth": "3"
+  },
+  "1062": {
+   "ground_truth": "-1"
+  }
+ },
+ "151": {
+  "687": {
+   "ground_truth": "2"
+  },
+  "1076": {
+   "ground_truth": "2"
+  },
+  "1074": {
+   "ground_truth": "3"
+  },
+  "1075": {
+   "ground_truth": "4"
+  },
+  "1077": {
+   "ground_truth": "4"
+  },
+  "1062": {
+   "ground_truth": "-1"
+  }
+ },
+ "152": {
+  "1076": {
+   "ground_truth": "1"
+  },
+  "1077": {
+   "ground_truth": "3"
+  },
+  "569": {
+   "ground_truth": "3"
+  },
+  "572": {
+   "ground_truth": "3"
+  },
+  "687": {
+   "ground_truth": "4"
+  },
+  "655": {
+   "ground_truth": "3"
+  },
+  "1062": {
+   "ground_truth": "-1"
+  }
+ },
+ "153": {
+  "1078": {
+   "ground_truth": "3"
+  },
+  "1083": {
+   "ground_truth": "3"
+  },
+  "1084": {
+   "ground_truth": "3"
+  },
+  "1080": {
+   "ground_truth": "4"
+  },
+  "1081": {
+   "ground_truth": "4"
+  },
+  "1082": {
+   "ground_truth": "4"
+  },
+  "1085": {
+   "ground_truth": "3"
+  },
+  "1063": {
+   "ground_truth": "-1"
+  }
+ },
+ "154": {
+  "1087": {
+   "ground_truth": "2"
+  },
+  "1088": {
+   "ground_truth": "3"
+  },
+  "1063": {
+   "ground_truth": "-1"
+  }
+ },
+ "155": {
+  "1103": {
+   "ground_truth": "1"
+  },
+  "1100": {
+   "ground_truth": "2"
+  },
+  "983": {
+   "ground_truth": "3"
+  },
+  "1101": {
+   "ground_truth": "3"
+  },
+  "1104": {
+   "ground_truth": "3"
+  },
+  "1099": {
+   "ground_truth": "4"
+  },
+  "1065": {
+   "ground_truth": "-1"
+  }
+ },
+ "156": {
+  "983": {
+   "ground_truth": "1"
+  },
+  "1102": {
+   "ground_truth": "1"
+  },
+  "1097": {
+   "ground_truth": "2"
+  },
+  "1100": {
+   "ground_truth": "2"
+  },
+  "274": {
+   "ground_truth": "2"
+  },
+  "1096": {
+   "ground_truth": "3"
+  },
+  "1098": {
+   "ground_truth": "3"
+  },
+  "1099": {
+   "ground_truth": "3"
+  },
+  "1103": {
+   "ground_truth": "4"
+  },
+  "982": {
+   "ground_truth": "4"
+  },
+  "1104": {
+   "ground_truth": "1"
+  },
+  "553": {
+   "ground_truth": "2"
+  },
+  "1101": {
+   "ground_truth": "3"
+  },
+  "82": {
+   "ground_truth": "3"
+  },
+  "1065": {
+   "ground_truth": "-1"
+  }
+ },
+ "157": {
+  "273": {
+   "ground_truth": "2"
+  },
+  "1105": {
+   "ground_truth": "2"
+  },
+  "1106": {
+   "ground_truth": "2"
+  },
+  "93": {
+   "ground_truth": "3"
+  },
+  "161": {
+   "ground_truth": "3"
+  },
+  "302": {
+   "ground_truth": "3"
+  },
+  "122": {
+   "ground_truth": "4"
+  },
+  "666": {
+   "ground_truth": "4"
+  },
+  "1107": {
+   "ground_truth": "2"
+  },
+  "556": {
+   "ground_truth": "2"
+  },
+  "25": {
+   "ground_truth": "2"
+  },
+  "1011": {
+   "ground_truth": "3"
+  },
+  "19": {
+   "ground_truth": "3"
+  },
+  "35": {
+   "ground_truth": "3"
+  },
+  "1355": {
+   "ground_truth": "4"
+  },
+  "372": {
+   "ground_truth": "2"
+  },
+  "410": {
+   "ground_truth": "2"
+  },
+  "456": {
+   "ground_truth": "2"
+  },
+  "36": {
+   "ground_truth": "3"
+  },
+  "44": {
+   "ground_truth": "3"
+  },
+  "215": {
+   "ground_truth": "3"
+  },
+  "626": {
+   "ground_truth": "2"
+  },
+  "1151": {
+   "ground_truth": "2"
+  },
+  "354": {
+   "ground_truth": "3"
+  },
+  "369": {
+   "ground_truth": "3"
+  },
+  "370": {
+   "ground_truth": "3"
+  },
+  "421": {
+   "ground_truth": "3"
+  },
+  "557": {
+   "ground_truth": "3"
+  },
+  "605": {
+   "ground_truth": "3"
+  },
+  "655": {
+   "ground_truth": "3"
+  },
+  "657": {
+   "ground_truth": "3"
+  },
+  "689": {
+   "ground_truth": "3"
+  },
+  "1307": {
+   "ground_truth": "3"
+  },
+  "318": {
+   "ground_truth": "3"
+  },
+  "423": {
+   "ground_truth": "3"
+  },
+  "1304": {
+   "ground_truth": "3"
+  },
+  "160": {
+   "ground_truth": "3"
+  },
+  "482": {
+   "ground_truth": "3"
+  },
+  "572": {
+   "ground_truth": "3"
+  },
+  "1006": {
+   "ground_truth": "-1"
+  }
+ },
+ "158": {
+  "302": {
+   "ground_truth": "1"
+  },
+  "1011": {
+   "ground_truth": "1"
+  },
+  "552": {
+   "ground_truth": "2"
+  },
+  "998": {
+   "ground_truth": "3"
+  },
+  "1009": {
+   "ground_truth": "3"
+  },
+  "1010": {
+   "ground_truth": "3"
+  },
+  "273": {
+   "ground_truth": "4"
+  },
+  "556": {
+   "ground_truth": "4"
+  },
+  "1006": {
+   "ground_truth": "-1"
+  }
+ },
+ "159": {
+  "234": {
+   "ground_truth": "3"
+  },
+  "1108": {
+   "ground_truth": "3"
+  },
+  "1110": {
+   "ground_truth": "3"
+  },
+  "1114": {
+   "ground_truth": "4"
+  },
+  "1115": {
+   "ground_truth": "4"
+  },
+  "1111": {
+   "ground_truth": "3"
+  },
+  "1112": {
+   "ground_truth": "3"
+  },
+  "231": {
+   "ground_truth": "3"
+  },
+  "1066": {
+   "ground_truth": "-1"
+  }
+ },
+ "160": {
+  "1134": {
+   "ground_truth": "3"
+  },
+  "1137": {
+   "ground_truth": "3"
+  },
+  "1138": {
+   "ground_truth": "3"
+  },
+  "1135": {
+   "ground_truth": "4"
+  },
+  "1136": {
+   "ground_truth": "4"
+  },
+  "1071": {
+   "ground_truth": "-1"
+  }
+ },
+ "161": {
+  "54": {
+   "ground_truth": "2"
+  },
+  "1386": {
+   "ground_truth": "2"
+  },
+  "562": {
+   "ground_truth": "3"
+  },
+  "336": {
+   "ground_truth": "3"
+  },
+  "55": {
+   "ground_truth": "4"
+  },
+  "996": {
+   "ground_truth": "4"
+  },
+  "489": {
+   "ground_truth": "-1"
+  }
+ },
+ "162": {
+  "111": {
+   "ground_truth": "1"
+  },
+  "155": {
+   "ground_truth": "1"
+  },
+  "460": {
+   "ground_truth": "2"
+  },
+  "461": {
+   "ground_truth": "2"
+  },
+  "54": {
+   "ground_truth": "3"
+  },
+  "562": {
+   "ground_truth": "3"
+  },
+  "458": {
+   "ground_truth": "1"
+  },
+  "459": {
+   "ground_truth": "1"
+  },
+  "489": {
+   "ground_truth": "-1"
+  }
+ },
+ "163": {
+  "20": {
+   "ground_truth": "3"
+  },
+  "56": {
+   "ground_truth": "3"
+  },
+  "57": {
+   "ground_truth": "3"
+  },
+  "492": {
+   "ground_truth": "-1"
+  }
+ },
+ "164": {
+  "311": {
+   "ground_truth": "2"
+  },
+  "415": {
+   "ground_truth": "3"
+  },
+  "416": {
+   "ground_truth": "3"
+  },
+  "798": {
+   "ground_truth": "3"
+  },
+  "316": {
+   "ground_truth": "4"
+  },
+  "335": {
+   "ground_truth": "4"
+  },
+  "1364": {
+   "ground_truth": "3"
+  },
+  "1367": {
+   "ground_truth": "3"
+  },
+  "503": {
+   "ground_truth": "-1"
+  }
+ },
+ "165": {
+  "71": {
+   "ground_truth": "1"
+  },
+  "72": {
+   "ground_truth": "1"
+  },
+  "504": {
+   "ground_truth": "-1"
+  }
+ },
+ "166": {
+  "40": {
+   "ground_truth": "2"
+  },
+  "41": {
+   "ground_truth": "2"
+  },
+  "74": {
+   "ground_truth": "2"
+  },
+  "207": {
+   "ground_truth": "2"
+  },
+  "272": {
+   "ground_truth": "2"
+  },
+  "418": {
+   "ground_truth": "2"
+  },
+  "170": {
+   "ground_truth": "2"
+  },
+  "1264": {
+   "ground_truth": "2"
+  },
+  "504": {
+   "ground_truth": "-1"
+  }
+ },
+ "167": {
+  "274": {
+   "ground_truth": "2"
+  },
+  "82": {
+   "ground_truth": "3"
+  },
+  "509": {
+   "ground_truth": "-1"
+  }
+ },
+ "168": {
+  "217": {
+   "ground_truth": "1"
+  },
+  "774": {
+   "ground_truth": "1"
+  },
+  "750": {
+   "ground_truth": "-1"
+  }
+ },
+ "169": {
+  "118": {
+   "ground_truth": "1"
+  },
+  "157": {
+   "ground_truth": "1"
+  },
+  "774": {
+   "ground_truth": "1"
+  },
+  "775": {
+   "ground_truth": "1"
+  },
+  "750": {
+   "ground_truth": "-1"
+  }
+ },
+ "170": {
+  "139": {
+   "ground_truth": "2"
+  },
+  "238": {
+   "ground_truth": "2"
+  },
+  "239": {
+   "ground_truth": "3"
+  },
+  "904": {
+   "ground_truth": "3"
+  },
+  "906": {
+   "ground_truth": "3"
+  },
+  "672": {
+   "ground_truth": "3"
+  },
+  "893": {
+   "ground_truth": "-1"
+  }
+ },
+ "171": {
+  "252": {
+   "ground_truth": "1"
+  },
+  "431": {
+   "ground_truth": "1"
+  },
+  "141": {
+   "ground_truth": "4"
+  },
+  "516": {
+   "ground_truth": "-1"
+  }
+ },
+ "172": {
+  "320": {
+   "ground_truth": "1"
+  },
+  "321": {
+   "ground_truth": "1"
+  },
+  "322": {
+   "ground_truth": "3"
+  },
+  "476": {
+   "ground_truth": "3"
+  },
+  "527": {
+   "ground_truth": "-1"
+  }
+ },
+ "173": {
+  "367": {
+   "ground_truth": "1"
+  },
+  "451": {
+   "ground_truth": "1"
+  },
+  "532": {
+   "ground_truth": "-1"
+  }
+ },
+ "174": {
+  "58": {
+   "ground_truth": "1"
+  },
+  "411": {
+   "ground_truth": "1"
+  },
+  "36": {
+   "ground_truth": "2"
+  },
+  "423": {
+   "ground_truth": "4"
+  },
+  "482": {
+   "ground_truth": "1"
+  },
+  "533": {
+   "ground_truth": "-1"
+  }
+ },
+ "175": {
+  "351": {
+   "ground_truth": "2"
+  },
+  "966": {
+   "ground_truth": "2"
+  },
+  "967": {
+   "ground_truth": "2"
+  },
+  "964": {
+   "ground_truth": "3"
+  },
+  "965": {
+   "ground_truth": "3"
+  },
+  "941": {
+   "ground_truth": "-1"
+  }
+ },
+ "176": {
+  "582": {
+   "ground_truth": "1"
+  },
+  "583": {
+   "ground_truth": "1"
+  },
+  "584": {
+   "ground_truth": "3"
+  },
+  "585": {
+   "ground_truth": "3"
+  },
+  "978": {
+   "ground_truth": "4"
+  },
+  "586": {
+   "ground_truth": "1"
+  },
+  "982": {
+   "ground_truth": "1"
+  },
+  "542": {
+   "ground_truth": "-1"
+  }
+ },
+ "177": {
+  "588": {
+   "ground_truth": "2"
+  },
+  "589": {
+   "ground_truth": "2"
+  },
+  "592": {
+   "ground_truth": "3"
+  },
+  "772": {
+   "ground_truth": "3"
+  },
+  "590": {
+   "ground_truth": "4"
+  },
+  "543": {
+   "ground_truth": "-1"
+  }
+ },
+ "178": {
+  "591": {
+   "ground_truth": "1"
+  },
+  "590": {
+   "ground_truth": "3"
+  },
+  "588": {
+   "ground_truth": "4"
+  },
+  "589": {
+   "ground_truth": "4"
+  },
+  "543": {
+   "ground_truth": "-1"
+  }
+ },
+ "179": {
+  "680": {
+   "ground_truth": "3"
+  },
+  "681": {
+   "ground_truth": "3"
+  },
+  "682": {
+   "ground_truth": "3"
+  },
+  "683": {
+   "ground_truth": "3"
+  },
+  "633": {
+   "ground_truth": "-1"
+  }
+ },
+ "180": {
+  "622": {
+   "ground_truth": "2"
+  },
+  "619": {
+   "ground_truth": "3"
+  },
+  "620": {
+   "ground_truth": "3"
+  },
+  "621": {
+   "ground_truth": "3"
+  },
+  "617": {
+   "ground_truth": "4"
+  },
+  "616": {
+   "ground_truth": "4"
+  },
+  "1150": {
+   "ground_truth": "4"
+  },
+  "548": {
+   "ground_truth": "-1"
+  }
+ },
+ "181": {
+  "973": {
+   "ground_truth": "2"
+  },
+  "974": {
+   "ground_truth": "2"
+  },
+  "409": {
+   "ground_truth": "2"
+  },
+  "997": {
+   "ground_truth": "3"
+  },
+  "1061": {
+   "ground_truth": "3"
+  },
+  "942": {
+   "ground_truth": "-1"
+  }
+ },
+ "182": {
+  "685": {
+   "ground_truth": "1"
+  },
+  "686": {
+   "ground_truth": "3"
+  },
+  "634": {
+   "ground_truth": "-1"
+  }
+ },
+ "183": {
+  "803": {
+   "ground_truth": "1"
+  },
+  "808": {
+   "ground_truth": "1"
+  },
+  "802": {
+   "ground_truth": "2"
+  },
+  "807": {
+   "ground_truth": "3"
+  },
+  "811": {
+   "ground_truth": "3"
+  },
+  "253": {
+   "ground_truth": "3"
+  },
+  "804": {
+   "ground_truth": "4"
+  },
+  "805": {
+   "ground_truth": "4"
+  },
+  "806": {
+   "ground_truth": "4"
+  },
+  "809": {
+   "ground_truth": "1"
+  },
+  "810": {
+   "ground_truth": "4"
+  },
+  "1243": {
+   "ground_truth": "4"
+  },
+  "1247": {
+   "ground_truth": "4"
+  },
+  "758": {
+   "ground_truth": "-1"
+  }
+ },
+ "184": {
+  "32": {
+   "ground_truth": "3"
+  },
+  "67": {
+   "ground_truth": "3"
+  },
+  "715": {
+   "ground_truth": "3"
+  },
+  "717": {
+   "ground_truth": "4"
+  },
+  "716": {
+   "ground_truth": "3"
+  },
+  "499": {
+   "ground_truth": "3"
+  },
+  "1379": {
+   "ground_truth": "3"
+  },
+  "639": {
+   "ground_truth": "-1"
+  }
+ },
+ "185": {
+  "858": {
+   "ground_truth": "2"
+  },
+  "859": {
+   "ground_truth": "2"
+  },
+  "857": {
+   "ground_truth": "2"
+  },
+  "1008": {
+   "ground_truth": "3"
+  },
+  "856": {
+   "ground_truth": "3"
+  },
+  "15": {
+   "ground_truth": "4"
+  },
+  "285": {
+   "ground_truth": "4"
+  },
+  "894": {
+   "ground_truth": "4"
+  },
+  "766": {
+   "ground_truth": "2"
+  },
+  "948": {
+   "ground_truth": "-1"
+  }
+ },
+ "186": {
+  "1309": {
+   "ground_truth": "3"
+  },
+  "1378": {
+   "ground_truth": "3"
+  },
+  "923": {
+   "ground_truth": "3"
+  },
+  "161": {
+   "ground_truth": "4"
+  },
+  "421": {
+   "ground_truth": "4"
+  },
+  "1377": {
+   "ground_truth": "4"
+  },
+  "924": {
+   "ground_truth": "3"
+  },
+  "1062": {
+   "ground_truth": "3"
+  },
+  "1074": {
+   "ground_truth": "3"
+  },
+  "1379": {
+   "ground_truth": "4"
+  },
+  "1380": {
+   "ground_truth": "4"
+  },
+  "1075": {
+   "ground_truth": "3"
+  },
+  "225": {
+   "ground_truth": "3"
+  },
+  "1280": {
+   "ground_truth": "3"
+  },
+  "1305": {
+   "ground_truth": "3"
+  },
+  "1304": {
+   "ground_truth": "3"
+  },
+  "1188": {
+   "ground_truth": "-1"
+  }
+ },
+ "187": {
+  "838": {
+   "ground_truth": "3"
+  },
+  "839": {
+   "ground_truth": "3"
+  },
+  "840": {
+   "ground_truth": "3"
+  },
+  "743": {
+   "ground_truth": "4"
+  },
+  "842": {
+   "ground_truth": "3"
+  },
+  "1045": {
+   "ground_truth": "3"
+  },
+  "763": {
+   "ground_truth": "-1"
+  }
+ },
+ "188": {
+  "721": {
+   "ground_truth": "2"
+  },
+  "722": {
+   "ground_truth": "2"
+  },
+  "723": {
+   "ground_truth": "2"
+  },
+  "75": {
+   "ground_truth": "3"
+  },
+  "909": {
+   "ground_truth": "3"
+  },
+  "724": {
+   "ground_truth": "4"
+  },
+  "726": {
+   "ground_truth": "4"
+  },
+  "725": {
+   "ground_truth": "2"
+  },
+  "728": {
+   "ground_truth": "2"
+  },
+  "729": {
+   "ground_truth": "2"
+  },
+  "911": {
+   "ground_truth": "2"
+  },
+  "640": {
+   "ground_truth": "-1"
+  }
+ },
+ "189": {
+  "395": {
+   "ground_truth": "2"
+  },
+  "866": {
+   "ground_truth": "2"
+  },
+  "869": {
+   "ground_truth": "2"
+  },
+  "865": {
+   "ground_truth": "3"
+  },
+  "868": {
+   "ground_truth": "3"
+  },
+  "870": {
+   "ground_truth": "3"
+  },
+  "867": {
+   "ground_truth": "4"
+  },
+  "872": {
+   "ground_truth": "3"
+  },
+  "873": {
+   "ground_truth": "3"
+  },
+  "767": {
+   "ground_truth": "-1"
+  }
+ },
+ "190": {
+  "15": {
+   "ground_truth": "1"
+  },
+  "391": {
+   "ground_truth": "1"
+  },
+  "285": {
+   "ground_truth": "2"
+  },
+  "390": {
+   "ground_truth": "3"
+  },
+  "864": {
+   "ground_truth": "3"
+  },
+  "894": {
+   "ground_truth": "-1"
+  }
+ },
+ "191": {
+  "914": {
+   "ground_truth": "1"
+  },
+  "915": {
+   "ground_truth": "1"
+  },
+  "285": {
+   "ground_truth": "2"
+  },
+  "857": {
+   "ground_truth": "2"
+  },
+  "858": {
+   "ground_truth": "2"
+  },
+  "15": {
+   "ground_truth": "3"
+  },
+  "391": {
+   "ground_truth": "3"
+  },
+  "856": {
+   "ground_truth": "3"
+  },
+  "390": {
+   "ground_truth": "4"
+  },
+  "1008": {
+   "ground_truth": "4"
+  },
+  "948": {
+   "ground_truth": "3"
+  },
+  "864": {
+   "ground_truth": "3"
+  },
+  "658": {
+   "ground_truth": "3"
+  },
+  "894": {
+   "ground_truth": "-1"
+  }
+ },
+ "192": {
+  "733": {
+   "ground_truth": "1"
+  },
+  "734": {
+   "ground_truth": "1"
+  },
+  "735": {
+   "ground_truth": "1"
+  },
+  "736": {
+   "ground_truth": "1"
+  },
+  "641": {
+   "ground_truth": "-1"
+  }
+ },
+ "193": {
+  "730": {
+   "ground_truth": "3"
+  },
+  "422": {
+   "ground_truth": "3"
+  },
+  "648": {
+   "ground_truth": "3"
+  },
+  "731": {
+   "ground_truth": "4"
+  },
+  "733": {
+   "ground_truth": "4"
+  },
+  "734": {
+   "ground_truth": "4"
+  },
+  "1392": {
+   "ground_truth": "3"
+  },
+  "735": {
+   "ground_truth": "4"
+  },
+  "736": {
+   "ground_truth": "4"
+  },
+  "641": {
+   "ground_truth": "-1"
+  }
+ },
+ "194": {
+  "739": {
+   "ground_truth": "2"
+  },
+  "740": {
+   "ground_truth": "2"
+  },
+  "742": {
+   "ground_truth": "2"
+  },
+  "744": {
+   "ground_truth": "3"
+  },
+  "741": {
+   "ground_truth": "4"
+  },
+  "743": {
+   "ground_truth": "2"
+  },
+  "642": {
+   "ground_truth": "-1"
+  }
+ },
+ "195": {
+  "739": {
+   "ground_truth": "3"
+  },
+  "742": {
+   "ground_truth": "3"
+  },
+  "743": {
+   "ground_truth": "3"
+  },
+  "642": {
+   "ground_truth": "-1"
+  }
+ },
+ "196": {
+  "51": {
+   "ground_truth": "2"
+  },
+  "185": {
+   "ground_truth": "2"
+  },
+  "874": {
+   "ground_truth": "2"
+  },
+  "878": {
+   "ground_truth": "3"
+  },
+  "879": {
+   "ground_truth": "3"
+  },
+  "880": {
+   "ground_truth": "3"
+  },
+  "12": {
+   "ground_truth": "4"
+  },
+  "875": {
+   "ground_truth": "2"
+  },
+  "876": {
+   "ground_truth": "2"
+  },
+  "202": {
+   "ground_truth": "3"
+  },
+  "746": {
+   "ground_truth": "3"
+  },
+  "13": {
+   "ground_truth": "3"
+  },
+  "184": {
+   "ground_truth": "-1"
+  }
+ },
+ "197": {
+  "881": {
+   "ground_truth": "2"
+  },
+  "883": {
+   "ground_truth": "3"
+  },
+  "884": {
+   "ground_truth": "3"
+  },
+  "768": {
+   "ground_truth": "-1"
+  }
+ },
+ "198": {
+  "887": {
+   "ground_truth": "2"
+  },
+  "888": {
+   "ground_truth": "2"
+  },
+  "889": {
+   "ground_truth": "2"
+  },
+  "843": {
+   "ground_truth": "3"
+  },
+  "769": {
+   "ground_truth": "-1"
+  }
+ },
+ "199": {
+  "1052": {
+   "ground_truth": "1"
+  },
+  "1053": {
+   "ground_truth": "1"
+  },
+  "1054": {
+   "ground_truth": "2"
+  },
+  "1055": {
+   "ground_truth": "2"
+  },
+  "1056": {
+   "ground_truth": "2"
+  },
+  "1060": {
+   "ground_truth": "2"
+  },
+  "743": {
+   "ground_truth": "2"
+  },
+  "744": {
+   "ground_truth": "2"
+  },
+  "957": {
+   "ground_truth": "-1"
+  }
+ },
+ "200": {
+  "1134": {
+   "ground_truth": "2"
+  },
+  "1137": {
+   "ground_truth": "2"
+  },
+  "1138": {
+   "ground_truth": "2"
+  },
+  "1071": {
+   "ground_truth": "-1"
+  }
+ },
+ "201": {
+  "552": {
+   "ground_truth": "2"
+  },
+  "625": {
+   "ground_truth": "2"
+  },
+  "1296": {
+   "ground_truth": "2"
+  },
+  "93": {
+   "ground_truth": "3"
+  },
+  "1151": {
+   "ground_truth": "3"
+  },
+  "401": {
+   "ground_truth": "3"
+  },
+  "110": {
+   "ground_truth": "4"
+  },
+  "1391": {
+   "ground_truth": "4"
+  },
+  "423": {
+   "ground_truth": "4"
+  },
+  "541": {
+   "ground_truth": "3"
+  },
+  "1295": {
+   "ground_truth": "3"
+  },
+  "318": {
+   "ground_truth": "3"
+  },
+  "1304": {
+   "ground_truth": "4"
+  },
+  "160": {
+   "ground_truth": "4"
+  },
+  "369": {
+   "ground_truth": "4"
+  },
+  "482": {
+   "ground_truth": "4"
+  },
+  "1140": {
+   "ground_truth": "-1"
+  }
+ },
+ "202": {
+  "1303": {
+   "ground_truth": "2"
+  },
+  "1304": {
+   "ground_truth": "2"
+  },
+  "1309": {
+   "ground_truth": "2"
+  },
+  "1306": {
+   "ground_truth": "3"
+  },
+  "1308": {
+   "ground_truth": "3"
+  },
+  "605": {
+   "ground_truth": "3"
+  },
+  "602": {
+   "ground_truth": "4"
+  },
+  "603": {
+   "ground_truth": "4"
+  },
+  "604": {
+   "ground_truth": "4"
+  },
+  "1110": {
+   "ground_truth": "2"
+  },
+  "1305": {
+   "ground_truth": "4"
+  },
+  "1310": {
+   "ground_truth": "4"
+  },
+  "48": {
+   "ground_truth": "4"
+  },
+  "232": {
+   "ground_truth": "4"
+  },
+  "1285": {
+   "ground_truth": "-1"
+  }
+ },
+ "203": {
+  "58": {
+   "ground_truth": "3"
+  },
+  "1305": {
+   "ground_truth": "3"
+  },
+  "1306": {
+   "ground_truth": "3"
+  },
+  "602": {
+   "ground_truth": "4"
+  },
+  "603": {
+   "ground_truth": "4"
+  },
+  "604": {
+   "ground_truth": "4"
+  },
+  "1307": {
+   "ground_truth": "3"
+  },
+  "1310": {
+   "ground_truth": "3"
+  },
+  "19": {
+   "ground_truth": "3"
+  },
+  "232": {
+   "ground_truth": "4"
+  },
+  "323": {
+   "ground_truth": "4"
+  },
+  "688": {
+   "ground_truth": "4"
+  },
+  "122": {
+   "ground_truth": "3"
+  },
+  "1188": {
+   "ground_truth": "4"
+  },
+  "1285": {
+   "ground_truth": "-1"
+  }
+ },
+ "204": {
+  "572": {
+   "ground_truth": "2"
+  },
+  "1311": {
+   "ground_truth": "2"
+  },
+  "63": {
+   "ground_truth": "3"
+  },
+  "540": {
+   "ground_truth": "3"
+  },
+  "602": {
+   "ground_truth": "4"
+  },
+  "603": {
+   "ground_truth": "4"
+  },
+  "604": {
+   "ground_truth": "4"
+  },
+  "1305": {
+   "ground_truth": "4"
+  },
+  "1188": {
+   "ground_truth": "4"
+  },
+  "307": {
+   "ground_truth": "4"
+  },
+  "1213": {
+   "ground_truth": "4"
+  },
+  "655": {
+   "ground_truth": "4"
+  },
+  "1355": {
+   "ground_truth": "4"
+  },
+  "68": {
+   "ground_truth": "4"
+  },
+  "1285": {
+   "ground_truth": "-1"
+  }
+ },
+ "205": {
+  "1321": {
+   "ground_truth": "2"
+  },
+  "1322": {
+   "ground_truth": "2"
+  },
+  "1287": {
+   "ground_truth": "-1"
+  }
+ },
+ "206": {
+  "1338": {
+   "ground_truth": "2"
+  },
+  "1341": {
+   "ground_truth": "2"
+  },
+  "1340": {
+   "ground_truth": "3"
+  },
+  "1290": {
+   "ground_truth": "-1"
+  }
+ },
+ "207": {
+  "1338": {
+   "ground_truth": "2"
+  },
+  "1339": {
+   "ground_truth": "2"
+  },
+  "1340": {
+   "ground_truth": "3"
+  },
+  "1341": {
+   "ground_truth": "3"
+  },
+  "879": {
+   "ground_truth": "4"
+  },
+  "1290": {
+   "ground_truth": "-1"
+  }
+ },
+ "208": {
+  "163": {
+   "ground_truth": "3"
+  },
+  "1344": {
+   "ground_truth": "3"
+  },
+  "1345": {
+   "ground_truth": "3"
+  },
+  "164": {
+   "ground_truth": "4"
+  },
+  "1347": {
+   "ground_truth": "4"
+  },
+  "1346": {
+   "ground_truth": "3"
+  },
+  "1291": {
+   "ground_truth": "-1"
+  }
+ },
+ "209": {
+  "1351": {
+   "ground_truth": "2"
+  },
+  "1356": {
+   "ground_truth": "2"
+  },
+  "1350": {
+   "ground_truth": "3"
+  },
+  "187": {
+   "ground_truth": "3"
+  },
+  "487": {
+   "ground_truth": "3"
+  },
+  "45": {
+   "ground_truth": "4"
+  },
+  "55": {
+   "ground_truth": "4"
+  },
+  "316": {
+   "ground_truth": "4"
+  },
+  "1383": {
+   "ground_truth": "3"
+  },
+  "1385": {
+   "ground_truth": "3"
+  },
+  "1106": {
+   "ground_truth": "4"
+  },
+  "1228": {
+   "ground_truth": "4"
+  },
+  "1292": {
+   "ground_truth": "-1"
+  }
+ },
+ "210": {
+  "1171": {
+   "ground_truth": "2"
+  },
+  "891": {
+   "ground_truth": "3"
+  },
+  "1172": {
+   "ground_truth": "3"
+  },
+  "1173": {
+   "ground_truth": "3"
+  },
+  "1030": {
+   "ground_truth": "4"
+  },
+  "1174": {
+   "ground_truth": "3"
+  },
+  "1145": {
+   "ground_truth": "-1"
+  }
+ },
+ "211": {
+  "891": {
+   "ground_truth": "2"
+  },
+  "1172": {
+   "ground_truth": "2"
+  },
+  "1173": {
+   "ground_truth": "3"
+  },
+  "1174": {
+   "ground_truth": "3"
+  },
+  "763": {
+   "ground_truth": "3"
+  },
+  "769": {
+   "ground_truth": "4"
+  },
+  "1030": {
+   "ground_truth": "4"
+  },
+  "1031": {
+   "ground_truth": "4"
+  },
+  "1033": {
+   "ground_truth": "4"
+  },
+  "1052": {
+   "ground_truth": "4"
+  },
+  "1068": {
+   "ground_truth": "4"
+  },
+  "1145": {
+   "ground_truth": "-1"
+  }
+ },
+ "212": {
+  "888": {
+   "ground_truth": "2"
+  },
+  "889": {
+   "ground_truth": "2"
+  },
+  "1178": {
+   "ground_truth": "2"
+  },
+  "885": {
+   "ground_truth": "3"
+  },
+  "887": {
+   "ground_truth": "3"
+  },
+  "886": {
+   "ground_truth": "3"
+  },
+  "841": {
+   "ground_truth": "4"
+  },
+  "1176": {
+   "ground_truth": "4"
+  },
+  "1177": {
+   "ground_truth": "4"
+  },
+  "890": {
+   "ground_truth": "3"
+  },
+  "769": {
+   "ground_truth": "3"
+  },
+  "891": {
+   "ground_truth": "3"
+  },
+  "1173": {
+   "ground_truth": "3"
+  },
+  "843": {
+   "ground_truth": "3"
+  },
+  "1146": {
+   "ground_truth": "-1"
+  }
+ },
+ "213": {
+  "888": {
+   "ground_truth": "1"
+  },
+  "885": {
+   "ground_truth": "2"
+  },
+  "887": {
+   "ground_truth": "2"
+  },
+  "889": {
+   "ground_truth": "2"
+  },
+  "1178": {
+   "ground_truth": "3"
+  },
+  "769": {
+   "ground_truth": "3"
+  },
+  "1173": {
+   "ground_truth": "3"
+  },
+  "1177": {
+   "ground_truth": "4"
+  },
+  "886": {
+   "ground_truth": "3"
+  },
+  "890": {
+   "ground_truth": "3"
+  },
+  "843": {
+   "ground_truth": "3"
+  },
+  "1146": {
+   "ground_truth": "-1"
+  }
+ },
+ "214": {
+  "833": {
+   "ground_truth": "3"
+  },
+  "1361": {
+   "ground_truth": "3"
+  },
+  "1362": {
+   "ground_truth": "3"
+  },
+  "1363": {
+   "ground_truth": "3"
+  },
+  "1294": {
+   "ground_truth": "-1"
+  }
+ },
+ "215": {
+  "37": {
+   "ground_truth": "4"
+  },
+  "35": {
+   "ground_truth": "4"
+  },
+  "535": {
+   "ground_truth": "-1"
+  }
+ },
+ "216": {
+  "156": {
+   "ground_truth": "1"
+  },
+  "506": {
+   "ground_truth": "-1"
+  }
+ },
+ "217": {
+  "666": {
+   "ground_truth": "1"
+  },
+  "667": {
+   "ground_truth": "1"
+  },
+  "1258": {
+   "ground_truth": "2"
+  },
+  "1394": {
+   "ground_truth": "2"
+  },
+  "668": {
+   "ground_truth": "3"
+  },
+  "670": {
+   "ground_truth": "3"
+  },
+  "1204": {
+   "ground_truth": "3"
+  },
+  "1391": {
+   "ground_truth": "4"
+  },
+  "1395": {
+   "ground_truth": "1"
+  },
+  "1300": {
+   "ground_truth": "3"
+  },
+  "37": {
+   "ground_truth": "3"
+  },
+  "559": {
+   "ground_truth": "3"
+  },
+  "630": {
+   "ground_truth": "3"
+  },
+  "1107": {
+   "ground_truth": "3"
+  },
+  "1213": {
+   "ground_truth": "3"
+  },
+  "1191": {
+   "ground_truth": "-1"
+  }
+ },
+ "218": {
+  "24": {
+   "ground_truth": "1"
+  },
+  "101": {
+   "ground_truth": "1"
+  },
+  "666": {
+   "ground_truth": "3"
+  },
+  "667": {
+   "ground_truth": "3"
+  },
+  "93": {
+   "ground_truth": "3"
+  },
+  "1258": {
+   "ground_truth": "4"
+  },
+  "1393": {
+   "ground_truth": "1"
+  },
+  "559": {
+   "ground_truth": "3"
+  },
+  "630": {
+   "ground_truth": "3"
+  },
+  "662": {
+   "ground_truth": "3"
+  },
+  "1104": {
+   "ground_truth": "3"
+  },
+  "1107": {
+   "ground_truth": "3"
+  },
+  "1204": {
+   "ground_truth": "3"
+  },
+  "1213": {
+   "ground_truth": "3"
+  },
+  "1300": {
+   "ground_truth": "3"
+  },
+  "1191": {
+   "ground_truth": "-1"
+  }
+ },
+ "219": {
+  "1391": {
+   "ground_truth": "1"
+  },
+  "666": {
+   "ground_truth": "2"
+  },
+  "667": {
+   "ground_truth": "2"
+  },
+  "1258": {
+   "ground_truth": "2"
+  },
+  "1078": {
+   "ground_truth": "3"
+  },
+  "1080": {
+   "ground_truth": "3"
+  },
+  "1081": {
+   "ground_truth": "3"
+  },
+  "1394": {
+   "ground_truth": "2"
+  },
+  "1395": {
+   "ground_truth": "2"
+  },
+  "1214": {
+   "ground_truth": "3"
+  },
+  "1198": {
+   "ground_truth": "3"
+  },
+  "1204": {
+   "ground_truth": "3"
+  },
+  "1300": {
+   "ground_truth": "3"
+  },
+  "559": {
+   "ground_truth": "3"
+  },
+  "630": {
+   "ground_truth": "3"
+  },
+  "662": {
+   "ground_truth": "3"
+  },
+  "1107": {
+   "ground_truth": "3"
+  },
+  "1213": {
+   "ground_truth": "3"
+  },
+  "1191": {
+   "ground_truth": "-1"
+  }
+ },
+ "220": {
+  "1383": {
+   "ground_truth": "2"
+  },
+  "1385": {
+   "ground_truth": "2"
+  },
+  "155": {
+   "ground_truth": "3"
+  },
+  "241": {
+   "ground_truth": "3"
+  },
+  "1382": {
+   "ground_truth": "3"
+  },
+  "1370": {
+   "ground_truth": "4"
+  },
+  "1386": {
+   "ground_truth": "4"
+  },
+  "111": {
+   "ground_truth": "4"
+  },
+  "1384": {
+   "ground_truth": "3"
+  },
+  "150": {
+   "ground_truth": "3"
+  },
+  "292": {
+   "ground_truth": "3"
+  },
+  "458": {
+   "ground_truth": "4"
+  },
+  "479": {
+   "ground_truth": "4"
+  },
+  "977": {
+   "ground_truth": "4"
+  },
+  "376": {
+   "ground_truth": "3"
+  },
+  "459": {
+   "ground_truth": "3"
+  },
+  "1365": {
+   "ground_truth": "3"
+  },
+  "62": {
+   "ground_truth": "3"
+  },
+  "1366": {
+   "ground_truth": "3"
+  },
+  "1182": {
+   "ground_truth": "-1"
+  }
+ },
+ "221": {
+  "155": {
+   "ground_truth": "2"
+  },
+  "1383": {
+   "ground_truth": "2"
+  },
+  "1385": {
+   "ground_truth": "2"
+  },
+  "1382": {
+   "ground_truth": "3"
+  },
+  "62": {
+   "ground_truth": "3"
+  },
+  "292": {
+   "ground_truth": "3"
+  },
+  "241": {
+   "ground_truth": "4"
+  },
+  "1370": {
+   "ground_truth": "4"
+  },
+  "1384": {
+   "ground_truth": "4"
+  },
+  "458": {
+   "ground_truth": "3"
+  },
+  "459": {
+   "ground_truth": "3"
+  },
+  "461": {
+   "ground_truth": "3"
+  },
+  "1386": {
+   "ground_truth": "4"
+  },
+  "1365": {
+   "ground_truth": "3"
+  },
+  "1366": {
+   "ground_truth": "3"
+  },
+  "111": {
+   "ground_truth": "3"
+  },
+  "150": {
+   "ground_truth": "3"
+  },
+  "479": {
+   "ground_truth": "3"
+  },
+  "1182": {
+   "ground_truth": "-1"
+  }
+ },
+ "222": {
+  "400": {
+   "ground_truth": "3"
+  },
+  "419": {
+   "ground_truth": "3"
+  },
+  "1387": {
+   "ground_truth": "3"
+  },
+  "412": {
+   "ground_truth": "4"
+  },
+  "1392": {
+   "ground_truth": "4"
+  },
+  "1398": {
+   "ground_truth": "4"
+  },
+  "1397": {
+   "ground_truth": "3"
+  },
+  "1400": {
+   "ground_truth": "3"
+  },
+  "1399": {
+   "ground_truth": "4"
+  },
+  "1396": {
+   "ground_truth": "-1"
+  }
+ },
+ "223": {
+  "400": {
+   "ground_truth": "3"
+  },
+  "1387": {
+   "ground_truth": "3"
+  },
+  "1392": {
+   "ground_truth": "3"
+  },
+  "1398": {
+   "ground_truth": "3"
+  },
+  "1396": {
+   "ground_truth": "-1"
+  }
+ },
+ "224": {
+  "656": {
+   "ground_truth": "3"
+  },
+  "1313": {
+   "ground_truth": "3"
+  },
+  "1317": {
+   "ground_truth": "3"
+  },
+  "1316": {
+   "ground_truth": "4"
+  },
+  "1318": {
+   "ground_truth": "3"
+  },
+  "1319": {
+   "ground_truth": "3"
+  },
+  "1157": {
+   "ground_truth": "3"
+  },
+  "1274": {
+   "ground_truth": "3"
+  },
+  "1286": {
+   "ground_truth": "-1"
+  }
+ },
+ "225": {
+  "1379": {
+   "ground_truth": "2"
+  },
+  "1305": {
+   "ground_truth": "2"
+  },
+  "1304": {
+   "ground_truth": "2"
+  },
+  "40": {
+   "ground_truth": "3"
+  },
+  "293": {
+   "ground_truth": "3"
+  },
+  "1309": {
+   "ground_truth": "3"
+  },
+  "161": {
+   "ground_truth": "4"
+  },
+  "421": {
+   "ground_truth": "4"
+  },
+  "1377": {
+   "ground_truth": "4"
+  },
+  "1378": {
+   "ground_truth": "3"
+  },
+  "1381": {
+   "ground_truth": "3"
+  },
+  "225": {
+   "ground_truth": "3"
+  },
+  "1380": {
+   "ground_truth": "4"
+  },
+  "448": {
+   "ground_truth": "3"
+  },
+  "449": {
+   "ground_truth": "3"
+  },
+  "1124": {
+   "ground_truth": "3"
+  },
+  "1280": {
+   "ground_truth": "3"
+  },
+  "433": {
+   "ground_truth": "3"
+  },
+  "923": {
+   "ground_truth": "3"
+  },
+  "924": {
+   "ground_truth": "3"
+  },
+  "1062": {
+   "ground_truth": "3"
+  },
+  "1074": {
+   "ground_truth": "3"
+  },
+  "1075": {
+   "ground_truth": "3"
+  },
+  "1213": {
+   "ground_truth": "3"
+  },
+  "1188": {
+   "ground_truth": "-1"
+  }
+ }
+}
