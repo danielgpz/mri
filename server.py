@@ -6,6 +6,8 @@ import os, sys
 import shutil
 import traceback
 from html import escape
+import nltk
+from nltk.tokenize.treebank import TreebankWordDetokenizer
 
 def load_html(file: str):
     f = open(os.path.join(os.getcwd(), 'frontend', file), 'r')
@@ -14,6 +16,7 @@ def load_html(file: str):
     return html
 
 def search_results(query: str, se: SearchEngine, page: int = 0, select: int = -1):
+    qdict = nltk.word_tokenize(query)
     jsons = se.query(query)
     pquery = quote(query)
     query = escape(query)
@@ -42,18 +45,18 @@ def search_results(query: str, se: SearchEngine, page: int = 0, select: int = -1
             f.close()
             title = escape(json_obj['title'])
             author = escape(json_obj['author'])
-            content = escape(json_obj['text' if 'text' in json_obj else 'abstract'])
+            content = json_obj['text' if 'text' in json_obj else 'abstract']
             preview = content
+            content = escape(content)
             if len(preview) > 300:
                 preview = preview[0:300] + '...'
-            preview = escape(preview)
             r.append('        <div class="serp__web">')
             r.append('          <span class="serp__label">Web Results</span>')
             r.append('          <div class="serp__result">')
             r.append(f'            <a href="?q={pquery}&p={page}&s={i}">')
             r.append(f'              <div class="serp__title">{title}</div>')
             r.append('            </a>')
-            # <span class="serp__match">bb</span>
+            preview = TreebankWordDetokenizer().detokenize([f'<span class="serp__match">{escape(i)}</span>' if i in qdict else escape(i) for i in nltk.word_tokenize(preview)])
             r.append(f'            <span class="serp__description"> {preview} </span>')
             r.append('          </div>')
             r.append('        </div>')
