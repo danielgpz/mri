@@ -44,7 +44,7 @@ def search_results(query: str, se: SearchEngine, page: int = 0, select: int = -1
             json_obj = json.load(f)
             f.close()
             title = escape(json_obj['title'])
-            author = escape(json_obj['author'])
+            author = escape(json_obj['author']) if 'author' in json_obj else ''
             content = json_obj['text' if 'text' in json_obj else 'abstract']
             preview = content
             content = escape(content)
