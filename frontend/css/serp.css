@@ -33,7 +33,7 @@ body {
   .serp__body {
     display: flex;
     margin-left: 90px;
-    max-width: 1140px;
+    max-width: 100%;
   }
 }
 
@@ -49,8 +49,8 @@ body {
 
 @media (min-width:990px) {
   .serp__main {
-    flex: 66%;
-    max-width: 66%;
+    flex: 55%;
+    max-width: 55%;
   }
 }
 
@@ -457,7 +457,7 @@ a .serp__title:hover {
 }
 
 .serp__wiki {
-  max-width: 220px;
+  /*max-width: 220px;*/
 }
 
 .serp__wiki h2 {
