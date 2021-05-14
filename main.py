@@ -29,7 +29,7 @@ class SearchEngine:
         return [result[1] + 1 for j, result in results]
     
 
-# python3 main.py ./datasets/CISI.vectors.json ./datasets/CISI.keywords.json
+# python3 main.py ./docs/CISI.vectors.json ./docs/CISI.keywords.json
 if __name__ == "__main__":
     vectors_path = sys.argv[1]
     keywords_path = sys.argv[2]
