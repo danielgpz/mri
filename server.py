@@ -42,7 +42,7 @@ def search_results(query: str, se: SearchEngine, page: int = 0, select: int = -1
             f.close()
             title = escape(json_obj['title'])
             author = escape(json_obj['author'])
-            content = escape(json_obj['text'])
+            content = escape(json_obj['text' if 'text' in json_obj else 'abstract'])
             preview = content
             if len(preview) > 300:
                 preview = preview[0:300] + '...'
