@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="./css/colors.css">
   <link rel="stylesheet" type="text/css" href="./css/modal.css">
-  <link rel="stylesheet" type="text/css" href="./css/serp.css?1">
+  <link rel="stylesheet" type="text/css" href="./css/serp.css">
   <link rel="icon" type="image/png" href="./img/se.png">
   <meta name="author" value="D&D">
 </head>
@@ -18,7 +18,8 @@
         <div class="serp__search">
           <form class="serp__form" action="http://localhost:8080/" methode="GET">
             <div>
-              <input name="q" type="search" value=""
+              <!-- <input name="q" type="search" value="" -->
+              <!-- @query -->
                      class="serp__query" 
                      maxlength="512"
                      autocomplete="off"
@@ -65,28 +66,7 @@
       </div>
         <div class="serp__sidebar">
           <div class="serp__sticky">
-            <div class="serp__headline">Wikipedia</div>
-            <div class="serp__wiki">
-              <h2>Web search engine</h2>
-              <p>Software system that is designed to search for information on the World Wide Web</p>
-              <img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Wikipedia-Logo-on-Black.jpg" />
-              <p>A <b>web search engine</b> or <b>Internet search engine</b> is a software system that is designed to carry out <b>web search</b>.</p>
-              <p>
-              <small>
-                More about &raquo;Web search engine&laquo; from <a target="_blank" href="https://en.wikipedia.org/wiki/Web_search_engine">Wikipedia</a>
-              </small>
-              </p>
-            </div>
-            <div class="serp__headline">Searches related to &raquo;labore et dolore&laquo;</div>
-            <div class="serp__hint">
-              <a class="serp__related" href="##"><b>Lorem</b> <b>Ipsum</b> Dolore</a><br>
-            </div>
-            <div class="serp__hint">
-              <a class="serp__related" href="##"><b>Lorem</b> <b>Ipsum</b> Dolore</a><br>
-            </div>
-            <div class="serp__hint">
-              <a class="serp__related" href="##"><b>Lorem</b> <b>Ipsum</b> Dolore</a><br>
-            </div>
+            <!-- @sidebar -->
           </div>
         </div>
     </div>

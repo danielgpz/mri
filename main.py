@@ -11,6 +11,7 @@ class SearchEngine:
 
         with open(vectors_path, 'r') as vp:
             vectors_dict = json.load(vp)
+            self.name = vectors_dict['name']
             vectors_dict.pop("name")
         
         self.vectors = []
@@ -20,13 +21,13 @@ class SearchEngine:
             self.vectors.append(dic["vector"])
             self.id_titles.append((idx, dic["title"]))
 
-            self.vm = VectorialModel(len(keywords), self.vectors)
-            del vectors_dict
+        self.vm = VectorialModel(len(keywords), self.vectors)
+        del vectors_dict
     
     def query(self, text: str):
         qvector = get_vector(text, self.ac)
         results = self.vm.query(qvector)
-        return [result[1] + 1 for j, result in results]
+        return [self.id_titles[result[1]][0] for j, result in enumerate(results[:100])]
     
 
 # python3 main.py ./datasets/CISI.vectors.json ./datasets/CISI.keywords.json

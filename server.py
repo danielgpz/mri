@@ -11,48 +11,62 @@ def load_html(file: str):
     f.close()
     return html
 
-def search_results(query: str, se: SearchEngine, page: int = 0):
+def search_results(query: str, se: SearchEngine, page: int = 0, select: int = -1):
     jsons = se.query(query)
     
     html = load_html('result.htm')
 
+    def find_pos(patt: str):
+        for i in range(len(html)):
+            for j in html[i].split():
+                if patt in j:
+                    return i + 1
+        assert 0
+
+    pos = find_pos('@query')
+    html = html[:pos] + [f'              <input name="q" type="search" value="{query}" autofocus\n'] + html[pos:]
+
     pages = (len(jsons) + 9) // 10
     if page < pages:
-        pos = -1
-        for i in range(len(html)):
-            for j in i.split():
-                if '@results' in j:
-                    pos = i
-                    break
+        pos = find_pos('@results')
         jsons = jsons[page*10:]
         r = []
+        s = []
         for i in jsons[:10]:
-            f = open(os.path.join(os.getcwd(), 'docs', se.name + str(i) + '.json'), 'r')
-            json_obj = json.load(i)
-            i.close()
+            f = open(os.path.join(os.getcwd(), 'docs', se.name + i + '.json'), 'r')
+            json_obj = json.load(f)
+            f.close()
             title = json_obj['title']
-            # author = json_obj['author']
+            author = json_obj['author']
             content = json_obj['text']
-            if len(content) > 100:
-                content = content[0:100] + '...'
+            preview = content
+            if len(preview) > 300:
+                preview = preview[0:300] + '...'
             r.append('        <div class="serp__web">')
             r.append('          <span class="serp__label">Web Results</span>')
             r.append('          <div class="serp__result">')
-            r.append('            <a href="##" target="_blank">')
+            r.append(f'            <a href="?q={query}&p={page}&s={i}">')
             r.append(f'              <div class="serp__title">{title}</div>')
             r.append('            </a>')
             # <span class="serp__match">bb</span>
-            r.append(f'            <span class="serp__description"> {content} </span>')
+            r.append(f'            <span class="serp__description"> {preview} </span>')
             r.append('          </div>')
             r.append('        </div>')
-        html = html[:pos] + r + html[pos:]
+        
+            if i == str(select) or select == -1:
+                select = i
+                s.append(f'            <div class="serp__headline">{author}</div>')
+                s.append('            <div class="serp__wiki">')
+                s.append(f'              <h2>{title}</h2>')
+                s.append(f'              <p>{content}</p>')
+                s.append('            </div>')
 
-        pos = -1
-        for i in range(len(html)):
-            for j in i.split():
-                if '@pagination' in j:
-                    pos = i
-                    break
+        html = html[:pos] + [i + '\n' for i in r] + html[pos:]
+
+        pos = find_pos('@sidebar')
+        html = html[:pos] + [i + '\n' for i in s] + html[pos:]
+
+        pos = find_pos('@pagination')
         p = []
         p.append('        <div class="serp__pagination">')
         p.append('          <ul>')
@@ -64,19 +78,15 @@ def search_results(query: str, se: SearchEngine, page: int = 0):
                 p.append(f'            <li><a href="?q={query}&p={i}"></a></li>')
         p.append('          </ul>')
         p.append('        </div>')
-        html = html[:pos] + p + html[pos:]
+        html = html[:pos] + [i + '\n' for i in p] + html[pos:]
+
         return html
-    
+
     if pages == 0 and page == 0:
-        pos = -1
-        for i in range(len(html)):
-            for j in i.split():
-                if '@noresults' in j:
-                    pos = i
-                    break
+        pos = find_pos('@noresults')
         nr = []
         nr.append('        <div class="serp__no-results">')
-        nr.append('          <p><strong>No search results were found for &raquo;labore et dolore&laquo;</strong></p>')
+        nr.append(f'          <p><strong>No search results were found for &raquo;{query}&laquo;</strong></p>')
         nr.append('          <p>Suggestions:</p>')
         nr.append('          <ul>')
         nr.append('            <li>Check that all words are spelled correctly.</li>')
@@ -85,7 +95,7 @@ def search_results(query: str, se: SearchEngine, page: int = 0):
         nr.append('            <li>Try fewer search terms.</li>')
         nr.append('          </ul>')
         nr.append('        </div>')
-        html = html[:pos] + nr + html[pos:]
+        html = html[:pos] + [i + '\n' for i in nr] + html[pos:]
         return html
 
     return load_html('404.html')
@@ -131,23 +141,22 @@ class MyServer(BaseHTTPRequestHandler):
                 page = 0
                 if 'p' in q:
                     page = int(q['p'][0])
-                html = search_results(q['q'][0], self.se, page)
+                select = -1
+                if 's' in q:
+                    select = int(q['s'][0])
+                html = search_results(q['q'][0], self.se, page, select)
+                # f = open('ht.html', 'w')
+                # f.writelines(html)
+                # f.close()
                 for l in html:
                     self.wfile.write(bytes(l, 'utf-8'))
                 return
-        except Exception:  
+        except Exception:
             pass
-        
+
         html = load_html('404.html')
         for l in html:
             self.wfile.write(bytes(l, 'utf-8'))
-
-        # self.wfile.write(bytes("<html><head><title>https://pythonbasics.org</title></head>", "utf-8"))
-        # self.wfile.write(bytes("<p>Request: %s</p>" % self.path, "utf-8"))
-        # self.wfile.write(bytes("<body>", "utf-8"))
-        # self.wfile.write(bytes("<p>This is an example web server.</p>", "utf-8"))
-        # self.wfile.write(bytes("</body></html>", "utf-8"))
-
 
 if __name__ == "__main__":        
     webServer = HTTPServer((hostName, serverPort), MyServer)
