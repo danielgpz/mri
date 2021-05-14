@@ -5,10 +5,10 @@ build_CISI:
 	python load_vectors.py ./datasets/ CISI.ALL.json CISI
 
 serve_CRAN:
-	python server.py localhost 8080 ./docs/CRAN.vectors.json ./docs/CRAN.keywords.json
+	python server.py localhost 8080 "./docs/CRAN.vectors.json" "./docs/CRAN.keywords.json"
 
 serve_CISI:
-	python server.py localhost 8080 ./docs/CISI.vectors.json ./docs/CISI.keywords.json
+	python server.py localhost 8080 "./docs/CISI.vectors.json" "./docs/CISI.keywords.json"
 
 test_CRAN:
 	python eval.py ./docs/CARN.vectors.json ./docs/CRAN.keywords.json ./datasets/CRAN.QRY.json ./datasets/CRAN.REL.json
