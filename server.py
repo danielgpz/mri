@@ -1,9 +1,11 @@
 from http.server import BaseHTTPRequestHandler, HTTPServer
 import json
-from urllib.parse import urlparse, parse_qs
+from urllib.parse import urlparse, parse_qs, quote
 from main import SearchEngine
 import os, sys
 import shutil
+import traceback
+from html import escape
 
 def load_html(file: str):
     f = open(os.path.join(os.getcwd(), 'frontend', file), 'r')
@@ -13,6 +15,8 @@ def load_html(file: str):
 
 def search_results(query: str, se: SearchEngine, page: int = 0, select: int = -1):
     jsons = se.query(query)
+    pquery = quote(query)
+    query = escape(query)
     
     html = load_html('result.htm')
 
@@ -36,16 +40,17 @@ def search_results(query: str, se: SearchEngine, page: int = 0, select: int = -1
             f = open(os.path.join(os.getcwd(), 'docs', se.name + i + '.json'), 'r')
             json_obj = json.load(f)
             f.close()
-            title = json_obj['title']
-            author = json_obj['author']
-            content = json_obj['text']
+            title = escape(json_obj['title'])
+            author = escape(json_obj['author'])
+            content = escape(json_obj['text'])
             preview = content
             if len(preview) > 300:
                 preview = preview[0:300] + '...'
+            preview = escape(preview)
             r.append('        <div class="serp__web">')
             r.append('          <span class="serp__label">Web Results</span>')
             r.append('          <div class="serp__result">')
-            r.append(f'            <a href="?q={query}&p={page}&s={i}">')
+            r.append(f'            <a href="?q={pquery}&p={page}&s={i}">')
             r.append(f'              <div class="serp__title">{title}</div>')
             r.append('            </a>')
             # <span class="serp__match">bb</span>
@@ -73,9 +78,9 @@ def search_results(query: str, se: SearchEngine, page: int = 0, select: int = -1
         p.append('            <li><a class="serp__disabled"></a></li>')
         for i in range(pages):
             if i == page:
-                p.append(f'            <li class="serp__pagination-active"><a href="?q={query}&p={i}"></a></li>')
+                p.append(f'            <li class="serp__pagination-active"><a href="?q={pquery}&p={i}"></a></li>')
             else:
-                p.append(f'            <li><a href="?q={query}&p={i}"></a></li>')
+                p.append(f'            <li><a href="?q={pquery}&p={i}"></a></li>')
         p.append('          </ul>')
         p.append('        </div>')
         html = html[:pos] + [i + '\n' for i in p] + html[pos:]
@@ -156,7 +161,22 @@ class MyServer(BaseHTTPRequestHandler):
                     self.wfile.write(bytes(l, 'utf-8'))
                 return
         except Exception:
-            pass
+            html = load_html('500.html')
+            pos = -1
+            for i in range(len(html)):
+                for j in html[i].split():
+                    if '@text' in j:
+                        pos = i + 1
+                        break
+            ex = traceback.format_exc()
+            ex = escape(ex)
+            html = html[:pos] + [f'                <textarea readonly name="awesome">{ex}</textarea>\n'] + html[pos:]
+            # f = open('ht.html', 'w')
+            # f.writelines(html)
+            # f.close()
+            for l in html:
+                self.wfile.write(bytes(l, 'utf-8'))
+            return
 
         html = load_html('404.html')
         for l in html:
