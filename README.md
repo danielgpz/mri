@@ -1,6 +1,14 @@
 # MRI using Vectorial Model.
 Final proyect of SI subject. Model and build an MRI.
 
+## Dependencies  
+- pip3 install yake  
+- pip3 install nltk  
+- $ python3
+- $ import nltk  
+- $ nltk.download('punkt')  
+- pip3 install json ?  
+
 ## How to use:
 - To create the necesary information to use de each example dataset:
     
