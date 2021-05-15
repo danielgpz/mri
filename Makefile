@@ -14,7 +14,7 @@ serve_CISI:
 	python server.py localhost 8080 "./docs/CISI.vectors.json" "./docs/CISI.keywords.json"
 
 console_CISI:
-	python main "./docs/CISI.vectors.json" "./docs/CISI.keywords.json"
+	python main.py "./docs/CISI.vectors.json" "./docs/CISI.keywords.json"
 
 test_CRAN:
 	python eval.py ./docs/CRAN.vectors.json ./docs/CRAN.keywords.json ./datasets/CRAN.QRY.json ./datasets/CRAN.REL.json
