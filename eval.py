@@ -1,6 +1,4 @@
-from model.vectorial import VectorialModel
-from indexer.indexer import get_vector
-from indexer.aho_corasick import aho_corasick
+from main import SearchEngine
 import sys, json
 
 def medida_f(P, R, B):
@@ -11,24 +9,7 @@ if __name__ == "__main__":
     vectors_path = sys.argv[1]
     keywords_path = sys.argv[2]
 
-    with open(keywords_path, 'r') as kp:
-        keywords = json.load(kp)
-        ac = aho_corasick(keywords)
-
-    with open(vectors_path, 'r') as vp:
-        vectors_dict = json.load(vp)
-        N = len(vectors_dict)
-        vectors_dict.pop("name")
-    
-    vectors = []
-    id_titles = []
-
-    for idx, dic in vectors_dict.items():
-        vectors.append(dic["vector"])
-        id_titles.append((idx, dic["title"]))
-
-    vm = VectorialModel(len(keywords), vectors)
-    del vectors_dict
+    se = SearchEngine(vectors_path, keywords_path)
 
     queries_path = sys.argv[3]
     rels_path = sys.argv[4]
@@ -51,14 +32,12 @@ if __name__ == "__main__":
         print(f'\n(ID: {id}) Consulta: {text}\nResultados:')
         if str(id) in rels:
             expecteds = rels[str(id)]
+            ans = se.query(text)[:top]
 
-            qvector = get_vector(text, ac)
-            ans = vm.query(qvector, alpha=alpha)[:top]
-
-            rr = sum(1 for (_, doc) in ans if id_titles[doc][0] in expecteds) # recuperados relevantes
+            rr = sum(1 for doc in ans if doc in expecteds) # recuperados relevantes
             R_precision = rr/len(ans)
             presiciones.append(R_precision)
-            print(f'{top}-Presicion: {R_precision}')
+            print(f'{top}-Precision: {R_precision}')
             
             R_recobrado = rr/len(expecteds)
             recobrados.append(R_recobrado)
@@ -66,24 +45,25 @@ if __name__ == "__main__":
             
             if rr > 0:
                 R_medidaf = medida_f(R_precision, R_recobrado, beta)
-                print(f'{top}-F (Beta= {beta}): {R_medidaf}')
+                print(f'{top}-Medida F (Beta= {beta}): {R_medidaf}')
                 
                 R_medidaf1 = medida_f(R_precision, R_recobrado, 1)
-                print(f'{top}-F1: {R_medidaf1}')
+                print(f'{top}-Medida F1: {R_medidaf1}')
             else:
                 print('No se recupero ningun documento relevante!!!')
-                print('  - Recuperados: ' + ', '.join(id_titles[doc][0] for (_, doc) in ans))
+                print('  - Recuperados: ' + ', '.join(ans))
                 print('  - Esperados: ' + ', '.join(doc for doc in expecteds))
                 fallos += 1
             
-            fallout = (len(ans) - rr)/(N - len(expecteds))
+            fallout = (len(ans) - rr)/(se.vm.N - len(expecteds))
             print(f'{top}-Fallout: {fallout}')
         else:
             print('Id de consula no encontrado en el archivo de relevancias >:(')
 
     print(f'\nResultados finales:')
-    print(f'Precision media: {sum(presiciones)/len(presiciones)}')
-    print(f'Recobrado medio: {sum(recobrados)/len(recobrados)}')
-    print(f'Fallos: {fallos} ({100 * fallos / len(presiciones)}%)')
+    print(f'Total de consultas: {len(presiciones)}')
+    print(f'Precision media: {round(sum(presiciones)/len(presiciones), 3)}')
+    print(f'Recobrado medio: {round(sum(recobrados)/len(recobrados), 3)}')
+    print(f'Fallos: {fallos}/{len(presiciones)} ({round(100 * fallos / len(presiciones), 3)}%)')
 
     
