@@ -2,11 +2,13 @@
 Final proyect of SI subject. Model and build an MRI.
 
 ## Dependencies  
-- pip3 install yake  
-- pip3 install nltk  
-- $ python3
-- $ import nltk  
-- $ nltk.download('punkt')  
+- `pip install yake`  
+- `pip install nltk`
+```
+$ python
+$ import nltk  
+$ nltk.download('punkt')  
+```
 
 ## How to use:
 - To create the necesary information to use de each example dataset:
@@ -21,6 +23,13 @@ Final proyect of SI subject. Model and build an MRI.
     ```
     make serve_CRAN
     make serve_CISI
+    ```
+
+- To run the console app version using each dataset:
+    
+    ```
+    make console_CRAN
+    make console_CISI
     ```
 
 - To obtain evaluation metrics for each dataset:
