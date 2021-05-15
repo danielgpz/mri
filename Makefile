@@ -17,7 +17,7 @@ console_CISI:
 	python main "./docs/CISI.vectors.json" "./docs/CISI.keywords.json"
 
 test_CRAN:
-	python eval.py ./docs/CARN.vectors.json ./docs/CRAN.keywords.json ./datasets/CRAN.QRY.json ./datasets/CRAN.REL.json
+	python eval.py ./docs/CRAN.vectors.json ./docs/CRAN.keywords.json ./datasets/CRAN.QRY.json ./datasets/CRAN.REL.json
 
 test_CISI:
 	python eval.py ./docs/CISI.vectors.json ./docs/CISI.keywords.json ./datasets/CISI.QRY.json ./datasets/CISI.REL.json
