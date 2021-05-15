@@ -631,6 +631,13 @@ a .serp__title:hover {
   border: solid 1px var(--text-light-color);
 }
 
+.serp__pagination li.serp__pagination-active2 a {
+  opacity: .8;
+  color: var(--background-color);
+  background-color: mediumblue;
+  border: solid 1px var(--text-light-color);
+}
+
 .serp__pagination li:first-child a:after {
   /* content: "◄";
   line-height: 17px;
@@ -642,9 +649,9 @@ a .serp__title:hover {
 }
 
 .serp__pagination li:last-child a:after {
-  /* content: "►";
+  content: "feedback";
   line-height: 17px;
-  font-size: 17px; */
+  font-size: 17px;
 }
 
 .serp__pagination li a {

@@ -100,5 +100,27 @@
     </div>
   </div>
   <!-- /Modal -->
+  <script type="text/javascript">
+    function handleCheck(e, c)
+    {
+        var xhr = new XMLHttpRequest();
+        xhr.open("POST", "http://localhost:8080/", true)
+        xhr.setRequestHeader('Content-Type', 'application/json');
+        if(e.target.checked)
+        {
+            ///do post request with 1 in parameter
+            xhr.send(JSON.stringify({
+                '1': c
+            }));
+        }
+        else
+        {
+            ///do post request with 0 parameter
+            xhr.send(JSON.stringify({
+                '0': c
+            }));
+        }
+    }
+</script>
 </body>
 </html>

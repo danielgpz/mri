@@ -16,8 +16,10 @@ class SearchEngine:
         
         self.vectors = []
         self.id_titles = []
+        self.idxs = {}
 
         for idx, dic in vectors_dict.items():
+            self.idxs[idx] = len(self.vectors)
             self.vectors.append(dic["vector"])
             self.id_titles.append((idx, dic["title"]))
 
@@ -27,6 +29,10 @@ class SearchEngine:
     def query(self, text: str):
         qvector = get_vector(text, self.ac)
         results = self.vm.query(qvector)
+        return [self.id_titles[result[1]][0] for j, result in enumerate(results[:100])]
+
+    def feedback(self, relevant_ids: list, irrelevant_ids: list):
+        results = self.vm.feedback(relevant_ids, irrelevant_ids)
         return [self.id_titles[result[1]][0] for j, result in enumerate(results[:100])]
     
 

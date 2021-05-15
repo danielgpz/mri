@@ -8,6 +8,7 @@ import traceback
 from html import escape
 import nltk
 from nltk.tokenize.treebank import TreebankWordDetokenizer
+import cgi
 
 def load_html(file: str):
     f = open(os.path.join(os.getcwd(), 'frontend', file), 'r')
@@ -15,9 +16,19 @@ def load_html(file: str):
     f.close()
     return html
 
-def search_results(query: str, se: SearchEngine, page: int = 0, select: int = -1):
+checked = []
+
+def search_results(query: str, se: SearchEngine, page: int = 0, select: int = -1, feedback = False):
     qdict = [i.lower() for i in nltk.word_tokenize(query)]
     jsons = se.query(query)
+    if feedback:
+        notchecked = jsons
+        for i in checked:
+            if i in notchecked:
+                notchecked.remove(i)
+        if checked and notchecked:
+            jsons = se.feedback([se.idxs[i] for i in checked], [se.idxs[i] for i in notchecked])
+            checked.clear()
     pquery = quote(query)
     query = escape(query)
     
@@ -51,11 +62,15 @@ def search_results(query: str, se: SearchEngine, page: int = 0, select: int = -1
             if len(preview) > 300:
                 preview = preview[0:300] + '...'
             r.append('        <div class="serp__web">')
-            r.append('          <span class="serp__label">Web Results</span>')
+            # r.append('          <span class="serp__label">Web Results</span>')
             r.append('          <div class="serp__result">')
-            r.append(f'            <a href="?q={pquery}&p={page}&s={i}">')
-            r.append(f'              <div class="serp__title">{title}</div>')
-            r.append('            </a>')
+            r.append('            <div>')
+            r.append(f'               <input type="checkbox" onclick="handleCheck(event, {i});"')
+            r[-1] += '>' if i not in checked else ' checked>'
+            r.append(f'               <a href="?q={pquery}&p={page}&s={i}&k=1">')
+            r.append(f'                 <span class="serp__title">{title}</span>')
+            r.append('                </a>')
+            r.append('            </div>')
             preview = TreebankWordDetokenizer().detokenize([f'<span class="serp__match">{escape(i)}</span>' if i.lower() in qdict else escape(i) for i in nltk.word_tokenize(preview)])
             r.append(f'            <span class="serp__description"> {preview} </span>')
             r.append('          </div>')
@@ -81,9 +96,10 @@ def search_results(query: str, se: SearchEngine, page: int = 0, select: int = -1
         p.append('            <li><a class="serp__disabled"></a></li>')
         for i in range(pages):
             if i == page:
-                p.append(f'            <li class="serp__pagination-active"><a href="?q={pquery}&p={i}"></a></li>')
+                p.append(f'            <li class="serp__pagination-active"><a href="?q={pquery}&p={i}&k=1"></a></li>')
             else:
-                p.append(f'            <li><a href="?q={pquery}&p={i}"></a></li>')
+                p.append(f'            <li><a href="?q={pquery}&p={i}&k=1"></a></li>')        
+        p.append(f'            <li class="serp__pagination-active2"><a href="?q={pquery}&f=1"></a></li>')
         p.append('          </ul>')
         p.append('        </div>')
         html = html[:pos] + [i + '\n' for i in p] + html[pos:]
@@ -118,7 +134,31 @@ vectors_path = sys.argv[3]
 # keywords_path = './docs/CISI.keywords.json'
 keywords_path = sys.argv[4]
 
-class MyServer(BaseHTTPRequestHandler):  
+class MyServer(BaseHTTPRequestHandler):
+    def do_POST(self):
+        try:
+            ctype, pdict = cgi.parse_header(self.headers.get('content-type'))
+                
+            # read the message and convert it into a python dictionary
+            length = int(self.headers.get('content-length'))
+            message = json.loads(self.rfile.read(length))
+
+            for key in message:
+                id = str(message[key])
+                # print(key, id)
+                if key == '1':
+                    if id not in checked:
+                        checked.append(id)
+                if key == '0':
+                    if id in checked:
+                        checked.remove(id)
+        except:
+            pass
+        
+        # print(checked)
+        self.send_response(200)
+        self.end_headers()
+
     def do_GET(self):
         if self.path.endswith(".css"):
             f = open(os.path.join(os.getcwd(), 'frontend') + self.path, 'rb')
@@ -149,7 +189,14 @@ class MyServer(BaseHTTPRequestHandler):
         try:
             p = urlparse(f'http://{hostName}:{serverPort}' + self.path)
             q = parse_qs(p.query)
+            if 'k' not in q and 'f' not in q:
+                checked.clear()
             if 'q' in q:
+                if 'f' in q:
+                    html = search_results(q['q'][0], self.se, 0, -1, True)
+                    for l in html:
+                        self.wfile.write(bytes(l, 'utf-8'))
+                    return
                 page = 0
                 if 'p' in q:
                     page = int(q['p'][0])
