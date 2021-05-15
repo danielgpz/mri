@@ -39,13 +39,8 @@ class Indexer:
 				content = ' '.join(nltk.word_tokenize(content))
 				kw_extractor = yake.KeywordExtractor(top=max(1, math.ceil(math.log2(len(content)))), n=1)
 				keywords = kw_extractor.extract_keywords(content)
-				json_obj[i]['keywords'] = keywords
 				for k in keywords:
 					all[k[0].lower()] = 0
-
-			f = open(file, 'w')
-			json.dump(json_obj, f, indent=4, sort_keys=False)
-			f.close()
 
 		idx = 0
 		for i in all:
